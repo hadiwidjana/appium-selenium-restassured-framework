@@ -1,0 +1,93 @@
+{
+    "status": 200,
+    "message": "",
+    "pagination": {
+        "pages": 1,
+        "per_page": 25,
+        "page_count": 1,
+        "total_count": 15,
+        "links": {
+            "first": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "previous": "",
+            "current": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "next": ""
+        }
+    },
+    "data": [
+        {
+            "id": 130,
+            "erp_id": "",
+            "terms": "30 Hari setelah Invoice diterima, dilengkapi dengan Berita Acara Serah Terima Barang"
+        },
+        {
+            "id": 129,
+            "erp_id": "",
+            "terms": "14 Hari Kerja Setelah Pekerjaan"
+        },
+        {
+            "id": 128,
+            "erp_id": "",
+            "terms": "100% Setelah Pekerjaan"
+        },
+        {
+            "id": 127,
+            "erp_id": "",
+            "terms": "100% Uang Dimuka"
+        },
+        {
+            "id": 126,
+            "erp_id": "",
+            "terms": "50% DP & 50% Setelah Pekerjaan"
+        },
+        {
+            "id": 125,
+            "erp_id": "",
+            "terms": "No DP, Pembayaran Progress, Pekerjaan 30 Hari"
+        },
+        {
+            "id": 124,
+            "erp_id": "",
+            "terms": "30% DP, 70% Progress, 5% Retensi (3 Bulan"
+        },
+        {
+            "id": 123,
+            "erp_id": "",
+            "terms": "20% DP, 75% Setelah Pekerjaan Selesai dan Berita Acara di TTD, 5% Retensi"
+        },
+        {
+            "id": 122,
+            "erp_id": "",
+            "terms": "50% DP & 50% COD"
+        },
+        {
+            "id": 121,
+            "erp_id": "",
+            "terms": "100% Cash Before Delivery"
+        },
+        {
+            "id": 120,
+            "erp_id": "",
+            "terms": "90 Hari Kerja Setelah Invoice di terima"
+        },
+        {
+            "id": 119,
+            "erp_id": "",
+            "terms": "60 Hari Kerja Setelah Invoice di terima"
+        },
+        {
+            "id": 118,
+            "erp_id": "",
+            "terms": "21 Hari Kerja Setelah Invoice di terima"
+        },
+        {
+            "id": 117,
+            "erp_id": "",
+            "terms": "14 Hari Kerja Setelah Invoice di terima"
+        },
+        {
+            "id": 116,
+            "erp_id": "",
+            "terms": "7 Hari Kerja Setelah Invoice di terima"
+        }
+    ]
+}

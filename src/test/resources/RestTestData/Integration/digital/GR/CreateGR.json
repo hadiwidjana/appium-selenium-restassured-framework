@@ -1,0 +1,49 @@
+{
+  "no": "GR/22/12/2022/5681",
+  "receiver": {
+    "id": 2994,
+    "email": "day6corp@day6.co"
+  },
+  "company_id": "SUT",
+  "received_at": "2022-12-22 00:00",
+  "items": [
+    {
+      "receive_note": "item received",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "JNGF10352",
+      "received_at": "2022-12-22 12:00",
+      "pr_id": "PRM2022/DEMO-INTG/22/12/22/5316",
+      "pr_item_id": "ITEM-3",
+      "name": "Pupuk Kompos",
+      "location_id": "DAY6F",
+      "receive_status": 1
+    },
+    {
+      "receive_note": "item received",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "JF109F32N",
+      "received_at": "2022-12-22 12:00",
+      "pr_id": "PRM2022/DEMO-INTG/22/12/22/5316",
+      "pr_item_id": "ITEM-2",
+      "name": "Pestisida",
+      "location_id": "DAY6F",
+      "receive_status": 1
+    },
+    {
+      "receive_note": "item received",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "O1P9322221",
+      "received_at": "2022-12-22 12:00",
+      "pr_id": "PRM2022/DEMO-INTG/22/12/22/5316",
+      "pr_item_id": "ITEM-1",
+      "name": "Pupuk Urea",
+      "location_id": "DAY6F",
+      "receive_status": 1
+    }
+  ],
+  "location_id": "DAY6F",
+  "po_no": "PO/RFQ/2022/12/22/22/8246"
+}

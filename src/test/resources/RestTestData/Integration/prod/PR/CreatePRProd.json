@@ -1,0 +1,53 @@
+{
+  "pr_no": "PRM2022/DEMO-INTG/09/12/22/2391",
+  "note": "PR to PR 11/08/02",
+  "creator": {
+    "id": 2987,
+    "email": "sakaunittest@mail.com"
+  },
+  "items": [
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "PPR001Y02",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "PR-001",
+      "name": "Pupuk Urea",
+      "brand": "Urea-1",
+      "location_id": "JKT48"
+    },
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 20,
+      "material_number": "PP-PPKI/001",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "PR-002",
+      "name": "Pestisida",
+      "brand": "Pk2s",
+      "location_id": "JKT48"
+    },
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "PP-PPK/KMPS-002",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "PR-003",
+      "name": "Pupuk Kompos",
+      "brand": "SINRDU",
+      "location_id": "JKT48"
+    }
+  ],
+  "location_id": "JKT48"
+}

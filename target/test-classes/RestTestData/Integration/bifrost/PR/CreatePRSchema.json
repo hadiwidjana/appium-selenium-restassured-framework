@@ -1,0 +1,455 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "pr_no": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        },
+        "subsidiary_id": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "material_number": {
+                  "type": "string"
+                },
+                "pr_item_id": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                },
+                "brand": {
+                  "type": "string"
+                },
+                "location_id": {
+                  "type": "string"
+                },
+                "subsidiary_id": {
+                  "type": "string"
+                },
+                "purchaser": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "creator": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "name"
+                  ]
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "discarded_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "material_number",
+                "pr_item_id",
+                "quantity",
+                "uom",
+                "note",
+                "brand",
+                "location_id",
+                "subsidiary_id",
+                "purchaser",
+                "creator",
+                "created_at",
+                "updated_by",
+                "discarded_by"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "material_number": {
+                  "type": "string"
+                },
+                "pr_item_id": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                },
+                "brand": {
+                  "type": "string"
+                },
+                "location_id": {
+                  "type": "string"
+                },
+                "subsidiary_id": {
+                  "type": "string"
+                },
+                "purchaser": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "name"
+                  ]
+                },
+                "creator": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "name"
+                  ]
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "discarded_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "material_number",
+                "pr_item_id",
+                "quantity",
+                "uom",
+                "note",
+                "brand",
+                "location_id",
+                "subsidiary_id",
+                "purchaser",
+                "creator",
+                "created_at",
+                "updated_by",
+                "discarded_by"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "material_number": {
+                  "type": "string"
+                },
+                "pr_item_id": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                },
+                "brand": {
+                  "type": "string"
+                },
+                "location_id": {
+                  "type": "string"
+                },
+                "subsidiary_id": {
+                  "type": "string"
+                },
+                "purchaser": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "name"
+                  ]
+                },
+                "creator": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "name"
+                  ]
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "discarded_by": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "material_number",
+                "pr_item_id",
+                "quantity",
+                "uom",
+                "note",
+                "brand",
+                "location_id",
+                "subsidiary_id",
+                "purchaser",
+                "creator",
+                "created_at",
+                "updated_by",
+                "discarded_by"
+              ]
+            }
+          ]
+        },
+        "creator": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "name"
+          ]
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_by": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "name"
+          ]
+        },
+        "cancelled_by": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "name"
+          ]
+        }
+      },
+      "required": [
+        "pr_no",
+        "note",
+        "location_id",
+        "subsidiary_id",
+        "items",
+        "creator",
+        "created_at",
+        "updated_by",
+        "cancelled_by"
+      ]
+    }
+  },
+  "required": [
+    "status",
+    "message",
+    "data"
+  ]
+}

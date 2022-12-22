@@ -1,0 +1,162 @@
+{
+    "status": 200,
+    "message": "",
+    "pagination": {
+        "pages": 1,
+        "per_page": 25,
+        "page_count": 1,
+        "total_count": 7,
+        "links": {
+            "first": "http://api-dev-integration.gokomodo.co/v1/api/master/departments?page=1",
+            "previous": "",
+            "current": "http://api-dev-integration.gokomodo.co/v1/api/master/departments?page=1",
+            "next": ""
+        }
+    },
+    "data": [
+        {
+            "id": 44,
+            "name": "PR team 2",
+            "users": [
+                {
+                    "id": 2989,
+                    "email": "sakauniti1@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team1"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Supply Chain 2",
+            "users": [
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                },
+                {
+                    "id": 2991,
+                    "email": "sakauniti3@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team3"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Supply Chain",
+            "users": [
+                {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Test"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Factory Technical",
+            "users": [
+                {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Test"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": "CAPEX, General and AgroTechnic",
+            "users": [
+                {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Test"
+                },
+                {
+                    "id": 2989,
+                    "email": "sakauniti1@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team1"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                },
+                {
+                    "id": 2991,
+                    "email": "sakauniti3@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team3"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Agro Department",
+            "users": [
+                {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Test"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Procurement",
+            "users": [
+                {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Test"
+                },
+                {
+                    "id": 2989,
+                    "email": "sakauniti1@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team1"
+                },
+                {
+                    "id": 2990,
+                    "email": "sakauniti2@mail.com",
+                    "first_name": "Saka Uniti",
+                    "last_name": "Team2"
+                }
+            ]
+        }
+    ]
+}

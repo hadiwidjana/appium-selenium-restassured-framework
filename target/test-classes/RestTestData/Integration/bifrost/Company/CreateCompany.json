@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "email": "string",
+    "first_name": "string",
+    "last_name": "string",
+    "phone_country_code": "string",
+    "phone_number": "string"
+  },
+  "description": "test",
+  "email": "sakaunitiseller@mail.com",
+  "entity_type": "PT",
+  "id": 2333,
+  "location": {
+    "address": "string",
+    "category": "string",
+    "city": "string",
+    "country": "string",
+    "erp_id": "string",
+    "label": "string",
+    "latitude": 0,
+    "location_type": 1,
+    "location_type_name": "string",
+    "longitude": 0,
+    "note": "string",
+    "postcode": "string",
+    "province": "string",
+    "subdistrict": "string"
+  },
+  "name": "Saka Uniti Seller",
+  "npwp": "abc123",
+  "phone_country_code": "62",
+  "phone_number": "987645",
+  "served_areas": [
+    "string"
+  ],
+  "user": {
+    "email": "pericles@example.com",
+    "first_name": "Pericles",
+    "id": 2042,
+    "last_name": "Staff",
+    "title": "Staff"
+  },
+  "website": ""
+}

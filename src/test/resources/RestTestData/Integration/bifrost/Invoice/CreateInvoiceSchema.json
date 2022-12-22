@@ -1,0 +1,47 @@
+{
+  "invoice_no": "INV/14/12/22/VENDOR/002",
+"seller_invoice_no": "INV/14/12/22/FROMSELLER/002",
+"vendor": {
+"id": 1893,
+"NPWP" : ""
+},
+"seller_invoice_date": "2022-12-13 02:04",
+"deadline_date": "2022-12-15 02:17",
+"created_by": {
+"id": 2994,
+"email": "day6corp@day6.co"
+},
+"items": [
+{
+"item_internal_id": "PDOL01",
+"name": "Pupuk Dolomite",
+"material_number": "PDA001",
+"uom": "unit",
+"unit_cost": 50000,
+"quantity": 1,
+"sub_total": 70000,
+"down_payment": 25000,
+"discount": 10000,
+"freight": 1000,
+"misc": 1000,
+"tax": 1000,
+"total": 60000,
+"purchase_orders": [
+"PO/DAY6/2022/12/14/01"
+],
+"goods_receiveds": [
+"GR/14/12/2022/06"
+],
+"notes": "test invoice",
+"description": "description"
+}
+],
+"total": 1,
+"note": "Invoice note",
+"payment_terms": [
+{
+"id": 1,
+"term": "Diskon"
+}
+]
+}

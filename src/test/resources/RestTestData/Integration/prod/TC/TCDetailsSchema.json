@@ -1,0 +1,2424 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "status",
+    "message",
+    "data"
+  ],
+  "properties": {
+    "status": {
+      "type": "integer",
+      "default": 0,
+      "title": "The status Schema",
+      "examples": [
+        200
+      ]
+    },
+    "message": {
+      "type": "string",
+      "default": "",
+      "title": "The message Schema",
+      "examples": [
+        "success"
+      ]
+    },
+    "data": {
+      "type": "object",
+      "default": {},
+      "title": "The data Schema",
+      "required": [
+        "tc_type",
+        "tc_id",
+        "tc_no",
+        "priority",
+        "pr_ids",
+        "rfq",
+        "vendor",
+        "main_category",
+        "payment_term",
+        "delivery_method",
+        "created_at",
+        "creator",
+        "sent_at",
+        "sender",
+        "deliveries",
+        "include_tax",
+        "tax_total",
+        "tax_rate",
+        "discount_type",
+        "discount_value",
+        "discount_total",
+        "total",
+        "approved_by",
+        "status"
+      ],
+      "properties": {
+        "tc_type": {
+          "type": "integer",
+          "default": 0,
+          "title": "The tc_type Schema",
+          "examples": [
+            0
+          ]
+        },
+        "tc_id": {
+          "type": "string",
+          "default": "",
+          "title": "The tc_id Schema",
+          "examples": [
+            "KAMKxMQ0"
+          ]
+        },
+        "tc_no": {
+          "type": "string",
+          "default": "",
+          "title": "The tc_no Schema",
+          "examples": [
+            "TCO/2022/11/50"
+          ]
+        },
+        "priority": {
+          "type": "integer",
+          "default": 0,
+          "title": "The priority Schema",
+          "examples": [
+            0
+          ]
+        },
+        "pr_ids": {
+          "type": "array",
+          "default": [],
+          "title": "The pr_ids Schema",
+          "items": {
+            "type": "string",
+            "default": "",
+            "title": "A Schema",
+            "examples": [
+              "PR/BIFROST/29/11/22/2834"
+            ]
+          },
+          "examples": [
+            [
+              "PR/BIFROST/29/11/22/2834"]
+          ]
+        },
+        "rfq": {
+          "type": "object",
+          "default": {},
+          "title": "The rfq Schema",
+          "required": [
+            "id",
+            "no",
+            "subject",
+            "creator"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "default": "",
+              "title": "The id Schema",
+              "examples": [
+                "K1RomdYW"
+              ]
+            },
+            "no": {
+              "type": "string",
+              "default": "",
+              "title": "The no Schema",
+              "examples": [
+                "RFQ/2022/11/128"
+              ]
+            },
+            "subject": {
+              "type": "string",
+              "default": "",
+              "title": "The subject Schema",
+              "examples": [
+                "RFQ TEST"
+              ]
+            },
+            "creator": {
+              "type": "string",
+              "default": "",
+              "title": "The creator Schema",
+              "examples": [
+                "Saka Uniti Test"
+              ]
+            }
+          },
+          "examples": [{
+            "id": "K1RomdYW",
+            "no": "RFQ/2022/11/128",
+            "subject": "RFQ TEST",
+            "creator": "Saka Uniti Test"
+          }]
+        },
+        "vendor": {
+          "type": "object",
+          "default": {},
+          "title": "The vendor Schema",
+          "required": [
+            "id",
+            "erp_id",
+            "entity_type",
+            "name",
+            "npwp",
+            "email",
+            "location"
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "default": 0,
+              "title": "The id Schema",
+              "examples": [
+                2333
+              ]
+            },
+            "erp_id": {
+              "type": "string",
+              "default": "",
+              "title": "The erp_id Schema",
+              "examples": [
+                "SAKAVUNI"
+              ]
+            },
+            "entity_type": {
+              "type": "string",
+              "default": "",
+              "title": "The entity_type Schema",
+              "examples": [
+                "PT"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "default": "",
+              "title": "The name Schema",
+              "examples": [
+                "SAka Uniti Seller"
+              ]
+            },
+            "npwp": {
+              "type": "string",
+              "default": "",
+              "title": "The npwp Schema",
+              "examples": [
+                ""
+              ]
+            },
+            "email": {
+              "type": "string",
+              "default": "",
+              "title": "The email Schema",
+              "examples": [
+                "sakaunitiseller@mail.com"
+              ]
+            },
+            "location": {
+              "type": "object",
+              "default": {},
+              "title": "The location Schema",
+              "required": [
+                "erp_id",
+                "company",
+                "label",
+                "category",
+                "address",
+                "postcode",
+                "longitude",
+                "latitude",
+                "subdistrict",
+                "city",
+                "province",
+                "note",
+                "location_type"
+              ],
+              "properties": {
+                "erp_id": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The erp_id Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "company": {
+                  "type": "object",
+                  "default": {},
+                  "title": "The company Schema",
+                  "required": [
+                    "entity_type",
+                    "erp_id",
+                    "name"
+                  ],
+                  "properties": {
+                    "entity_type": {
+                      "type": "string",
+                      "default": "",
+                      "title": "The entity_type Schema",
+                      "examples": [
+                        ""
+                      ]
+                    },
+                    "erp_id": {
+                      "type": "string",
+                      "default": "",
+                      "title": "The erp_id Schema",
+                      "examples": [
+                        ""
+                      ]
+                    },
+                    "name": {
+                      "type": "string",
+                      "default": "",
+                      "title": "The name Schema",
+                      "examples": [
+                        ""
+                      ]
+                    }
+                  },
+                  "examples": [{
+                    "entity_type": "",
+                    "erp_id": "",
+                    "name": ""
+                  }]
+                },
+                "label": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The label Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "category": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The category Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "address": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The address Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "postcode": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The postcode Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "longitude": {
+                  "type": "integer",
+                  "default": 0,
+                  "title": "The longitude Schema",
+                  "examples": [
+                    0
+                  ]
+                },
+                "latitude": {
+                  "type": "integer",
+                  "default": 0,
+                  "title": "The latitude Schema",
+                  "examples": [
+                    0
+                  ]
+                },
+                "subdistrict": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The subdistrict Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "city": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The city Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "province": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The province Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "note": {
+                  "type": "string",
+                  "default": "",
+                  "title": "The note Schema",
+                  "examples": [
+                    ""
+                  ]
+                },
+                "location_type": {
+                  "type": "integer",
+                  "default": 0,
+                  "title": "The location_type Schema",
+                  "examples": [
+                    0
+                  ]
+                }
+              },
+              "examples": [{
+                "erp_id": "",
+                "company": {
+                  "entity_type": "",
+                  "erp_id": "",
+                  "name": ""
+                },
+                "label": "",
+                "category": "",
+                "address": "",
+                "postcode": "",
+                "longitude": 0,
+                "latitude": 0,
+                "subdistrict": "",
+                "city": "",
+                "province": "",
+                "note": "",
+                "location_type": 0
+              }]
+            }
+          },
+          "examples": [{
+            "id": 2333,
+            "erp_id": "SAKAVUNI",
+            "entity_type": "PT",
+            "name": "SAka Uniti Seller",
+            "npwp": "",
+            "email": "sakaunitiseller@mail.com",
+            "location": {
+              "erp_id": "",
+              "company": {
+                "entity_type": "",
+                "erp_id": "",
+                "name": ""
+              },
+              "label": "",
+              "category": "",
+              "address": "",
+              "postcode": "",
+              "longitude": 0,
+              "latitude": 0,
+              "subdistrict": "",
+              "city": "",
+              "province": "",
+              "note": "",
+              "location_type": 0
+            }
+          }]
+        },
+        "main_category": {
+          "type": "array",
+          "default": [],
+          "title": "The main_category Schema",
+          "items": {
+            "type": "object",
+            "default": {},
+            "title": "A Schema",
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "type": "integer",
+                "default": 0,
+                "title": "The id Schema",
+                "examples": [
+                  1489
+                ]
+              },
+              "name": {
+                "type": "string",
+                "default": "",
+                "title": "The name Schema",
+                "examples": [
+                  "Stationery (ATK)"
+                ]
+              }
+            },
+            "examples": [{
+              "id": 1489,
+              "name": "Stationery (ATK)"
+            }]
+          },
+          "examples": [
+            [{
+              "id": 1489,
+              "name": "Stationery (ATK)"
+            }]
+          ]
+        },
+        "payment_term": {
+          "type": "object",
+          "default": {},
+          "title": "The payment_term Schema",
+          "required": [
+            "id",
+            "erp_id",
+            "term"
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "default": 0,
+              "title": "The id Schema",
+              "examples": [
+                0
+              ]
+            },
+            "erp_id": {
+              "type": "string",
+              "default": "",
+              "title": "The erp_id Schema",
+              "examples": [
+                ""
+              ]
+            },
+            "term": {
+              "type": "string",
+              "default": "",
+              "title": "The term Schema",
+              "examples": [
+                "7 Hari Kerja Setelah Invoice di terima"
+              ]
+            }
+          },
+          "examples": [{
+            "id": 0,
+            "erp_id": "",
+            "term": "7 Hari Kerja Setelah Invoice di terima"
+          }]
+        },
+        "delivery_method": {
+          "type": "integer",
+          "default": 0,
+          "title": "The delivery_method Schema",
+          "examples": [
+            0
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "default": "",
+          "title": "The created_at Schema",
+          "examples": [
+            "2022-11-29T06:46:07.944967Z"
+          ]
+        },
+        "creator": {
+          "type": "object",
+          "default": {},
+          "title": "The creator Schema",
+          "required": [
+            "email",
+            "name"
+          ],
+          "properties": {
+            "email": {
+              "type": "string",
+              "default": "",
+              "title": "The email Schema",
+              "examples": [
+                "sakaunittest@mail.com"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "default": "",
+              "title": "The name Schema",
+              "examples": [
+                "Saka Uniti Test"
+              ]
+            }
+          },
+          "examples": [{
+            "email": "sakaunittest@mail.com",
+            "name": "Saka Uniti Test"
+          }]
+        },
+        "sent_at": {
+          "type": "string",
+          "default": "",
+          "title": "The sent_at Schema",
+          "examples": [
+            "2022-11-29T06:46:07Z"
+          ]
+        },
+        "sender": {
+          "type": "object",
+          "default": {},
+          "title": "The sender Schema",
+          "required": [
+            "email",
+            "name"
+          ],
+          "properties": {
+            "email": {
+              "type": "string",
+              "default": "",
+              "title": "The email Schema",
+              "examples": [
+                "sakaunittest@mail.com"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "default": "",
+              "title": "The name Schema",
+              "examples": [
+                "Saka Uniti Test"
+              ]
+            }
+          },
+          "examples": [{
+            "email": "sakaunittest@mail.com",
+            "name": "Saka Uniti Test"
+          }]
+        },
+        "deliveries": {
+          "type": "array",
+          "default": [],
+          "title": "The deliveries Schema",
+          "items": {
+            "type": "object",
+            "default": {},
+            "title": "A Schema",
+            "required": [
+              "items",
+              "location",
+              "franco_area",
+              "total",
+              "total_delivery_cost",
+              "discount_type",
+              "discount_value",
+              "discount_amount",
+              "discount_total"
+            ],
+            "properties": {
+              "items": {
+                "type": "array",
+                "default": [],
+                "title": "The items Schema",
+                "items": {
+                  "type": "object",
+                  "title": "A Schema",
+                  "required": [
+                    "tc_item_id",
+                    "pr_id",
+                    "pr_item_id",
+                    "name",
+                    "material_number",
+                    "uom",
+                    "requested_brand",
+                    "requested_quantity",
+                    "requested_note",
+                    "brand",
+                    "quantity",
+                    "note",
+                    "unit_cost",
+                    "delivery_cost",
+                    "location",
+                    "discount_type",
+                    "discount_value",
+                    "discount_total",
+                    "total",
+                    "total_delivery_cost",
+                    "unit_cost_after_discount",
+                    "alternates",
+                    "is_alternate"
+                  ],
+                  "properties": {
+                    "tc_item_id": {
+                      "type": "integer",
+                      "title": "The tc_item_id Schema",
+                      "examples": [
+                        104386,
+                        104387,
+                        104388
+                      ]
+                    },
+                    "pr_id": {
+                      "type": "string",
+                      "title": "The pr_id Schema",
+                      "examples": [
+                        "PR/BIFROST/29/11/22/2834"
+                      ]
+                    },
+                    "pr_item_id": {
+                      "type": "string",
+                      "title": "The pr_item_id Schema",
+                      "examples": [
+                        "ITEM-3",
+                        "ITEM-2",
+                        "ITEM-1"
+                      ]
+                    },
+                    "name": {
+                      "type": "string",
+                      "title": "The name Schema",
+                      "examples": [
+                        "KERTAS HVS",
+                        "PRINTER EPSON",
+                        "ATK-Pembolong Kertas"
+                      ]
+                    },
+                    "material_number": {
+                      "type": "string",
+                      "title": "The material_number Schema",
+                      "examples": [
+                        "ATK-KRTS/HVS-003",
+                        "IT-APSN/002",
+                        "O1P9322221"
+                      ]
+                    },
+                    "uom": {
+                      "type": "string",
+                      "title": "The uom Schema",
+                      "examples": [
+                        "unit"
+                      ]
+                    },
+                    "requested_brand": {
+                      "type": "string",
+                      "title": "The requested_brand Schema",
+                      "examples": [
+                        "SINRDU",
+                        "EPSEUN",
+                        "JOYKO"
+                      ]
+                    },
+                    "requested_quantity": {
+                      "type": "integer",
+                      "title": "The requested_quantity Schema",
+                      "examples": [
+                        10
+                      ]
+                    },
+                    "requested_note": {
+                      "type": "string",
+                      "title": "The requested_note Schema",
+                      "examples": [
+                        ""
+                      ]
+                    },
+                    "brand": {
+                      "type": "string",
+                      "title": "The brand Schema",
+                      "examples": [
+                        ""
+                      ]
+                    },
+                    "quantity": {
+                      "type": "integer",
+                      "title": "The quantity Schema",
+                      "examples": [
+                        10
+                      ]
+                    },
+                    "note": {
+                      "type": "string",
+                      "title": "The note Schema",
+                      "examples": [
+                        ""
+                      ]
+                    },
+                    "unit_cost": {
+                      "type": "integer",
+                      "title": "The unit_cost Schema",
+                      "examples": [
+                        1000000
+                      ]
+                    },
+                    "delivery_cost": {
+                      "type": "integer",
+                      "title": "The delivery_cost Schema",
+                      "examples": [
+                        0
+                      ]
+                    },
+                    "location": {
+                      "type": "object",
+                      "title": "The location Schema",
+                      "required": [
+                        "erp_id",
+                        "company",
+                        "label",
+                        "category",
+                        "address",
+                        "postcode",
+                        "longitude",
+                        "latitude",
+                        "subdistrict",
+                        "city",
+                        "province",
+                        "note",
+                        "location_type"
+                      ],
+                      "properties": {
+                        "erp_id": {
+                          "type": "string",
+                          "title": "The erp_id Schema",
+                          "examples": [
+                            "SUHO"
+                          ]
+                        },
+                        "company": {
+                          "type": "object",
+                          "title": "The company Schema",
+                          "required": [
+                            "entity_type",
+                            "erp_id",
+                            "name"
+                          ],
+                          "properties": {
+                            "entity_type": {
+                              "type": "string",
+                              "title": "The entity_type Schema",
+                              "examples": [
+                                "PT"
+                              ]
+                            },
+                            "erp_id": {
+                              "type": "string",
+                              "title": "The erp_id Schema",
+                              "examples": [
+                                "SUT"
+                              ]
+                            },
+                            "name": {
+                              "type": "string",
+                              "title": "The name Schema",
+                              "examples": [
+                                "Saka Uniti Test"
+                              ]
+                            }
+                          },
+                          "examples": [{
+                            "entity_type": "PT",
+                            "erp_id": "SUT",
+                            "name": "Saka Uniti Test"
+                          },
+                            {
+                              "entity_type": "PT",
+                              "erp_id": "SUT",
+                              "name": "Saka Uniti Test"
+                            },
+                            {
+                              "entity_type": "PT",
+                              "erp_id": "SUT",
+                              "name": "Saka Uniti Test"
+                            }]
+                        },
+                        "label": {
+                          "type": "string",
+                          "title": "The label Schema",
+                          "examples": [
+                            "Saka Uniti Head Office"
+                          ]
+                        },
+                        "category": {
+                          "type": "string",
+                          "title": "The category Schema",
+                          "examples": [
+                            "address"
+                          ]
+                        },
+                        "address": {
+                          "type": "string",
+                          "title": "The address Schema",
+                          "examples": [
+                            "Kebayoran Baru "
+                          ]
+                        },
+                        "postcode": {
+                          "type": "string",
+                          "title": "The postcode Schema",
+                          "examples": [
+                            "764735"
+                          ]
+                        },
+                        "longitude": {
+                          "type": "integer",
+                          "title": "The longitude Schema",
+                          "examples": [
+                            0
+                          ]
+                        },
+                        "latitude": {
+                          "type": "integer",
+                          "title": "The latitude Schema",
+                          "examples": [
+                            0
+                          ]
+                        },
+                        "subdistrict": {
+                          "type": "string",
+                          "title": "The subdistrict Schema",
+                          "examples": [
+                            "Kebayoran Baru"
+                          ]
+                        },
+                        "city": {
+                          "type": "string",
+                          "title": "The city Schema",
+                          "examples": [
+                            "Kota Jakarta Selatan"
+                          ]
+                        },
+                        "province": {
+                          "type": "string",
+                          "title": "The province Schema",
+                          "examples": [
+                            "DKI Jakarta"
+                          ]
+                        },
+                        "note": {
+                          "type": "string",
+                          "title": "The note Schema",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "location_type": {
+                          "type": "integer",
+                          "title": "The location_type Schema",
+                          "examples": [
+                            1
+                          ]
+                        }
+                      },
+                      "examples": [{
+                        "erp_id": "SUHO",
+                        "company": {
+                          "entity_type": "PT",
+                          "erp_id": "SUT",
+                          "name": "Saka Uniti Test"
+                        },
+                        "label": "Saka Uniti Head Office",
+                        "category": "address",
+                        "address": "Kebayoran Baru ",
+                        "postcode": "764735",
+                        "longitude": 0,
+                        "latitude": 0,
+                        "subdistrict": "Kebayoran Baru",
+                        "city": "Kota Jakarta Selatan",
+                        "province": "DKI Jakarta",
+                        "note": "",
+                        "location_type": 1
+                      },
+                        {
+                          "erp_id": "SUHO",
+                          "company": {
+                            "entity_type": "PT",
+                            "erp_id": "SUT",
+                            "name": "Saka Uniti Test"
+                          },
+                          "label": "Saka Uniti Head Office",
+                          "category": "address",
+                          "address": "Kebayoran Baru ",
+                          "postcode": "764735",
+                          "longitude": 0,
+                          "latitude": 0,
+                          "subdistrict": "Kebayoran Baru",
+                          "city": "Kota Jakarta Selatan",
+                          "province": "DKI Jakarta",
+                          "note": "",
+                          "location_type": 1
+                        },
+                        {
+                          "erp_id": "SUHO",
+                          "company": {
+                            "entity_type": "PT",
+                            "erp_id": "SUT",
+                            "name": "Saka Uniti Test"
+                          },
+                          "label": "Saka Uniti Head Office",
+                          "category": "address",
+                          "address": "Kebayoran Baru ",
+                          "postcode": "764735",
+                          "longitude": 0,
+                          "latitude": 0,
+                          "subdistrict": "Kebayoran Baru",
+                          "city": "Kota Jakarta Selatan",
+                          "province": "DKI Jakarta",
+                          "note": "",
+                          "location_type": 1
+                        }]
+                    },
+                    "discount_type": {
+                      "type": "integer",
+                      "title": "The discount_type Schema",
+                      "examples": [
+                        0
+                      ]
+                    },
+                    "discount_value": {
+                      "type": "integer",
+                      "title": "The discount_value Schema",
+                      "examples": [
+                        0
+                      ]
+                    },
+                    "discount_total": {
+                      "type": "integer",
+                      "title": "The discount_total Schema",
+                      "examples": [
+                        0
+                      ]
+                    },
+                    "total": {
+                      "type": "integer",
+                      "title": "The total Schema",
+                      "examples": [
+                        10000000
+                      ]
+                    },
+                    "total_delivery_cost": {
+                      "type": "integer",
+                      "title": "The total_delivery_cost Schema",
+                      "examples": [
+                        0
+                      ]
+                    },
+                    "unit_cost_after_discount": {
+                      "type": "integer",
+                      "title": "The unit_cost_after_discount Schema",
+                      "examples": [
+                        1000000
+                      ]
+                    },
+                    "alternates": {
+                      "type": "null",
+                      "title": "The alternates Schema",
+                      "examples": [
+                        null
+                      ]
+                    },
+                    "is_alternate": {
+                      "type": "boolean",
+                      "title": "The is_alternate Schema",
+                      "examples": [
+                        false
+                      ]
+                    }
+                  },
+                  "examples": [{
+                    "tc_item_id": 104386,
+                    "pr_id": "PR/BIFROST/29/11/22/2834",
+                    "pr_item_id": "ITEM-3",
+                    "name": "KERTAS HVS",
+                    "material_number": "ATK-KRTS/HVS-003",
+                    "uom": "unit",
+                    "requested_brand": "SINRDU",
+                    "requested_quantity": 10,
+                    "requested_note": "",
+                    "brand": "",
+                    "quantity": 10,
+                    "note": "",
+                    "unit_cost": 1000000,
+                    "delivery_cost": 0,
+                    "location": {
+                      "erp_id": "SUHO",
+                      "company": {
+                        "entity_type": "PT",
+                        "erp_id": "SUT",
+                        "name": "Saka Uniti Test"
+                      },
+                      "label": "Saka Uniti Head Office",
+                      "category": "address",
+                      "address": "Kebayoran Baru ",
+                      "postcode": "764735",
+                      "longitude": 0,
+                      "latitude": 0,
+                      "subdistrict": "Kebayoran Baru",
+                      "city": "Kota Jakarta Selatan",
+                      "province": "DKI Jakarta",
+                      "note": "",
+                      "location_type": 1
+                    },
+                    "discount_type": 0,
+                    "discount_value": 0,
+                    "discount_total": 0,
+                    "total": 10000000,
+                    "total_delivery_cost": 0,
+                    "unit_cost_after_discount": 1000000,
+                    "alternates": null,
+                    "is_alternate": false
+                  },
+                    {
+                      "tc_item_id": 104387,
+                      "pr_id": "PR/BIFROST/29/11/22/2834",
+                      "pr_item_id": "ITEM-2",
+                      "name": "PRINTER EPSON",
+                      "material_number": "IT-APSN/002",
+                      "uom": "unit",
+                      "requested_brand": "EPSEUN",
+                      "requested_quantity": 10,
+                      "requested_note": "",
+                      "brand": "",
+                      "quantity": 10,
+                      "note": "",
+                      "unit_cost": 1000000,
+                      "delivery_cost": 0,
+                      "location": {
+                        "erp_id": "SUHO",
+                        "company": {
+                          "entity_type": "PT",
+                          "erp_id": "SUT",
+                          "name": "Saka Uniti Test"
+                        },
+                        "label": "Saka Uniti Head Office",
+                        "category": "address",
+                        "address": "Kebayoran Baru ",
+                        "postcode": "764735",
+                        "longitude": 0,
+                        "latitude": 0,
+                        "subdistrict": "Kebayoran Baru",
+                        "city": "Kota Jakarta Selatan",
+                        "province": "DKI Jakarta",
+                        "note": "",
+                        "location_type": 1
+                      },
+                      "discount_type": 0,
+                      "discount_value": 0,
+                      "discount_total": 0,
+                      "total": 10000000,
+                      "total_delivery_cost": 0,
+                      "unit_cost_after_discount": 1000000,
+                      "alternates": null,
+                      "is_alternate": false
+                    },
+                    {
+                      "tc_item_id": 104388,
+                      "pr_id": "PR/BIFROST/29/11/22/2834",
+                      "pr_item_id": "ITEM-1",
+                      "name": "ATK-Pembolong Kertas",
+                      "material_number": "O1P9322221",
+                      "uom": "unit",
+                      "requested_brand": "JOYKO",
+                      "requested_quantity": 10,
+                      "requested_note": "",
+                      "brand": "",
+                      "quantity": 10,
+                      "note": "",
+                      "unit_cost": 1000000,
+                      "delivery_cost": 0,
+                      "location": {
+                        "erp_id": "SUHO",
+                        "company": {
+                          "entity_type": "PT",
+                          "erp_id": "SUT",
+                          "name": "Saka Uniti Test"
+                        },
+                        "label": "Saka Uniti Head Office",
+                        "category": "address",
+                        "address": "Kebayoran Baru ",
+                        "postcode": "764735",
+                        "longitude": 0,
+                        "latitude": 0,
+                        "subdistrict": "Kebayoran Baru",
+                        "city": "Kota Jakarta Selatan",
+                        "province": "DKI Jakarta",
+                        "note": "",
+                        "location_type": 1
+                      },
+                      "discount_type": 0,
+                      "discount_value": 0,
+                      "discount_total": 0,
+                      "total": 10000000,
+                      "total_delivery_cost": 0,
+                      "unit_cost_after_discount": 1000000,
+                      "alternates": null,
+                      "is_alternate": false
+                    }]
+                },
+                "examples": [
+                  [{
+                    "tc_item_id": 104386,
+                    "pr_id": "PR/BIFROST/29/11/22/2834",
+                    "pr_item_id": "ITEM-3",
+                    "name": "KERTAS HVS",
+                    "material_number": "ATK-KRTS/HVS-003",
+                    "uom": "unit",
+                    "requested_brand": "SINRDU",
+                    "requested_quantity": 10,
+                    "requested_note": "",
+                    "brand": "",
+                    "quantity": 10,
+                    "note": "",
+                    "unit_cost": 1000000,
+                    "delivery_cost": 0,
+                    "location": {
+                      "erp_id": "SUHO",
+                      "company": {
+                        "entity_type": "PT",
+                        "erp_id": "SUT",
+                        "name": "Saka Uniti Test"
+                      },
+                      "label": "Saka Uniti Head Office",
+                      "category": "address",
+                      "address": "Kebayoran Baru ",
+                      "postcode": "764735",
+                      "longitude": 0,
+                      "latitude": 0,
+                      "subdistrict": "Kebayoran Baru",
+                      "city": "Kota Jakarta Selatan",
+                      "province": "DKI Jakarta",
+                      "note": "",
+                      "location_type": 1
+                    },
+                    "discount_type": 0,
+                    "discount_value": 0,
+                    "discount_total": 0,
+                    "total": 10000000,
+                    "total_delivery_cost": 0,
+                    "unit_cost_after_discount": 1000000,
+                    "alternates": null,
+                    "is_alternate": false
+                  },
+                    {
+                      "tc_item_id": 104387,
+                      "pr_id": "PR/BIFROST/29/11/22/2834",
+                      "pr_item_id": "ITEM-2",
+                      "name": "PRINTER EPSON",
+                      "material_number": "IT-APSN/002",
+                      "uom": "unit",
+                      "requested_brand": "EPSEUN",
+                      "requested_quantity": 10,
+                      "requested_note": "",
+                      "brand": "",
+                      "quantity": 10,
+                      "note": "",
+                      "unit_cost": 1000000,
+                      "delivery_cost": 0,
+                      "location": {
+                        "erp_id": "SUHO",
+                        "company": {
+                          "entity_type": "PT",
+                          "erp_id": "SUT",
+                          "name": "Saka Uniti Test"
+                        },
+                        "label": "Saka Uniti Head Office",
+                        "category": "address",
+                        "address": "Kebayoran Baru ",
+                        "postcode": "764735",
+                        "longitude": 0,
+                        "latitude": 0,
+                        "subdistrict": "Kebayoran Baru",
+                        "city": "Kota Jakarta Selatan",
+                        "province": "DKI Jakarta",
+                        "note": "",
+                        "location_type": 1
+                      },
+                      "discount_type": 0,
+                      "discount_value": 0,
+                      "discount_total": 0,
+                      "total": 10000000,
+                      "total_delivery_cost": 0,
+                      "unit_cost_after_discount": 1000000,
+                      "alternates": null,
+                      "is_alternate": false
+                    },
+                    {
+                      "tc_item_id": 104388,
+                      "pr_id": "PR/BIFROST/29/11/22/2834",
+                      "pr_item_id": "ITEM-1",
+                      "name": "ATK-Pembolong Kertas",
+                      "material_number": "O1P9322221",
+                      "uom": "unit",
+                      "requested_brand": "JOYKO",
+                      "requested_quantity": 10,
+                      "requested_note": "",
+                      "brand": "",
+                      "quantity": 10,
+                      "note": "",
+                      "unit_cost": 1000000,
+                      "delivery_cost": 0,
+                      "location": {
+                        "erp_id": "SUHO",
+                        "company": {
+                          "entity_type": "PT",
+                          "erp_id": "SUT",
+                          "name": "Saka Uniti Test"
+                        },
+                        "label": "Saka Uniti Head Office",
+                        "category": "address",
+                        "address": "Kebayoran Baru ",
+                        "postcode": "764735",
+                        "longitude": 0,
+                        "latitude": 0,
+                        "subdistrict": "Kebayoran Baru",
+                        "city": "Kota Jakarta Selatan",
+                        "province": "DKI Jakarta",
+                        "note": "",
+                        "location_type": 1
+                      },
+                      "discount_type": 0,
+                      "discount_value": 0,
+                      "discount_total": 0,
+                      "total": 10000000,
+                      "total_delivery_cost": 0,
+                      "unit_cost_after_discount": 1000000,
+                      "alternates": null,
+                      "is_alternate": false
+                    }]
+                ]
+              },
+              "location": {
+                "type": "object",
+                "default": {},
+                "title": "The location Schema",
+                "required": [
+                  "erp_id",
+                  "company",
+                  "label",
+                  "category",
+                  "address",
+                  "postcode",
+                  "longitude",
+                  "latitude",
+                  "subdistrict",
+                  "city",
+                  "province",
+                  "note",
+                  "location_type"
+                ],
+                "properties": {
+                  "erp_id": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The erp_id Schema",
+                    "examples": [
+                      "SUHO"
+                    ]
+                  },
+                  "company": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The company Schema",
+                    "required": [
+                      "entity_type",
+                      "erp_id",
+                      "name"
+                    ],
+                    "properties": {
+                      "entity_type": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The entity_type Schema",
+                        "examples": [
+                          "PT"
+                        ]
+                      },
+                      "erp_id": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The erp_id Schema",
+                        "examples": [
+                          "SUT"
+                        ]
+                      },
+                      "name": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The name Schema",
+                        "examples": [
+                          "Saka Uniti Test"
+                        ]
+                      }
+                    },
+                    "examples": [{
+                      "entity_type": "PT",
+                      "erp_id": "SUT",
+                      "name": "Saka Uniti Test"
+                    }]
+                  },
+                  "label": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The label Schema",
+                    "examples": [
+                      "Saka Uniti Head Office"
+                    ]
+                  },
+                  "category": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The category Schema",
+                    "examples": [
+                      "address"
+                    ]
+                  },
+                  "address": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The address Schema",
+                    "examples": [
+                      "Kebayoran Baru "
+                    ]
+                  },
+                  "postcode": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The postcode Schema",
+                    "examples": [
+                      "764735"
+                    ]
+                  },
+                  "longitude": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The longitude Schema",
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "latitude": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The latitude Schema",
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "subdistrict": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The subdistrict Schema",
+                    "examples": [
+                      "Kebayoran Baru"
+                    ]
+                  },
+                  "city": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The city Schema",
+                    "examples": [
+                      "Kota Jakarta Selatan"
+                    ]
+                  },
+                  "province": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The province Schema",
+                    "examples": [
+                      "DKI Jakarta"
+                    ]
+                  },
+                  "note": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The note Schema",
+                    "examples": [
+                      ""
+                    ]
+                  },
+                  "location_type": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The location_type Schema",
+                    "examples": [
+                      1
+                    ]
+                  }
+                },
+                "examples": [{
+                  "erp_id": "SUHO",
+                  "company": {
+                    "entity_type": "PT",
+                    "erp_id": "SUT",
+                    "name": "Saka Uniti Test"
+                  },
+                  "label": "Saka Uniti Head Office",
+                  "category": "address",
+                  "address": "Kebayoran Baru ",
+                  "postcode": "764735",
+                  "longitude": 0,
+                  "latitude": 0,
+                  "subdistrict": "Kebayoran Baru",
+                  "city": "Kota Jakarta Selatan",
+                  "province": "DKI Jakarta",
+                  "note": "",
+                  "location_type": 1
+                }]
+              },
+              "franco_area": {
+                "type": "object",
+                "default": {},
+                "title": "The franco_area Schema",
+                "required": [
+                  "id",
+                  "name",
+                  "category"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The id Schema",
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "name": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The name Schema",
+                    "examples": [
+                      ""
+                    ]
+                  },
+                  "category": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The category Schema",
+                    "examples": [
+                      ""
+                    ]
+                  }
+                },
+                "examples": [{
+                  "id": 0,
+                  "name": "",
+                  "category": ""
+                }]
+              },
+              "total": {
+                "type": "integer",
+                "default": 0,
+                "title": "The total Schema",
+                "examples": [
+                  30000000
+                ]
+              },
+              "total_delivery_cost": {
+                "type": "integer",
+                "default": 0,
+                "title": "The total_delivery_cost Schema",
+                "examples": [
+                  0
+                ]
+              },
+              "discount_type": {
+                "type": "integer",
+                "default": 0,
+                "title": "The discount_type Schema",
+                "examples": [
+                  0
+                ]
+              },
+              "discount_value": {
+                "type": "integer",
+                "default": 0,
+                "title": "The discount_value Schema",
+                "examples": [
+                  0
+                ]
+              },
+              "discount_amount": {
+                "type": "integer",
+                "default": 0,
+                "title": "The discount_amount Schema",
+                "examples": [
+                  0
+                ]
+              },
+              "discount_total": {
+                "type": "integer",
+                "default": 0,
+                "title": "The discount_total Schema",
+                "examples": [
+                  0
+                ]
+              }
+            },
+            "examples": [{
+              "items": [{
+                "tc_item_id": 104386,
+                "pr_id": "PR/BIFROST/29/11/22/2834",
+                "pr_item_id": "ITEM-3",
+                "name": "KERTAS HVS",
+                "material_number": "ATK-KRTS/HVS-003",
+                "uom": "unit",
+                "requested_brand": "SINRDU",
+                "requested_quantity": 10,
+                "requested_note": "",
+                "brand": "",
+                "quantity": 10,
+                "note": "",
+                "unit_cost": 1000000,
+                "delivery_cost": 0,
+                "location": {
+                  "erp_id": "SUHO",
+                  "company": {
+                    "entity_type": "PT",
+                    "erp_id": "SUT",
+                    "name": "Saka Uniti Test"
+                  },
+                  "label": "Saka Uniti Head Office",
+                  "category": "address",
+                  "address": "Kebayoran Baru ",
+                  "postcode": "764735",
+                  "longitude": 0,
+                  "latitude": 0,
+                  "subdistrict": "Kebayoran Baru",
+                  "city": "Kota Jakarta Selatan",
+                  "province": "DKI Jakarta",
+                  "note": "",
+                  "location_type": 1
+                },
+                "discount_type": 0,
+                "discount_value": 0,
+                "discount_total": 0,
+                "total": 10000000,
+                "total_delivery_cost": 0,
+                "unit_cost_after_discount": 1000000,
+                "alternates": null,
+                "is_alternate": false
+              },
+                {
+                  "tc_item_id": 104387,
+                  "pr_id": "PR/BIFROST/29/11/22/2834",
+                  "pr_item_id": "ITEM-2",
+                  "name": "PRINTER EPSON",
+                  "material_number": "IT-APSN/002",
+                  "uom": "unit",
+                  "requested_brand": "EPSEUN",
+                  "requested_quantity": 10,
+                  "requested_note": "",
+                  "brand": "",
+                  "quantity": 10,
+                  "note": "",
+                  "unit_cost": 1000000,
+                  "delivery_cost": 0,
+                  "location": {
+                    "erp_id": "SUHO",
+                    "company": {
+                      "entity_type": "PT",
+                      "erp_id": "SUT",
+                      "name": "Saka Uniti Test"
+                    },
+                    "label": "Saka Uniti Head Office",
+                    "category": "address",
+                    "address": "Kebayoran Baru ",
+                    "postcode": "764735",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Kebayoran Baru",
+                    "city": "Kota Jakarta Selatan",
+                    "province": "DKI Jakarta",
+                    "note": "",
+                    "location_type": 1
+                  },
+                  "discount_type": 0,
+                  "discount_value": 0,
+                  "discount_total": 0,
+                  "total": 10000000,
+                  "total_delivery_cost": 0,
+                  "unit_cost_after_discount": 1000000,
+                  "alternates": null,
+                  "is_alternate": false
+                },
+                {
+                  "tc_item_id": 104388,
+                  "pr_id": "PR/BIFROST/29/11/22/2834",
+                  "pr_item_id": "ITEM-1",
+                  "name": "ATK-Pembolong Kertas",
+                  "material_number": "O1P9322221",
+                  "uom": "unit",
+                  "requested_brand": "JOYKO",
+                  "requested_quantity": 10,
+                  "requested_note": "",
+                  "brand": "",
+                  "quantity": 10,
+                  "note": "",
+                  "unit_cost": 1000000,
+                  "delivery_cost": 0,
+                  "location": {
+                    "erp_id": "SUHO",
+                    "company": {
+                      "entity_type": "PT",
+                      "erp_id": "SUT",
+                      "name": "Saka Uniti Test"
+                    },
+                    "label": "Saka Uniti Head Office",
+                    "category": "address",
+                    "address": "Kebayoran Baru ",
+                    "postcode": "764735",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Kebayoran Baru",
+                    "city": "Kota Jakarta Selatan",
+                    "province": "DKI Jakarta",
+                    "note": "",
+                    "location_type": 1
+                  },
+                  "discount_type": 0,
+                  "discount_value": 0,
+                  "discount_total": 0,
+                  "total": 10000000,
+                  "total_delivery_cost": 0,
+                  "unit_cost_after_discount": 1000000,
+                  "alternates": null,
+                  "is_alternate": false
+                }],
+              "location": {
+                "erp_id": "SUHO",
+                "company": {
+                  "entity_type": "PT",
+                  "erp_id": "SUT",
+                  "name": "Saka Uniti Test"
+                },
+                "label": "Saka Uniti Head Office",
+                "category": "address",
+                "address": "Kebayoran Baru ",
+                "postcode": "764735",
+                "longitude": 0,
+                "latitude": 0,
+                "subdistrict": "Kebayoran Baru",
+                "city": "Kota Jakarta Selatan",
+                "province": "DKI Jakarta",
+                "note": "",
+                "location_type": 1
+              },
+              "franco_area": {
+                "id": 0,
+                "name": "",
+                "category": ""
+              },
+              "total": 30000000,
+              "total_delivery_cost": 0,
+              "discount_type": 0,
+              "discount_value": 0,
+              "discount_amount": 0,
+              "discount_total": 0
+            }]
+          },
+          "examples": [
+            [{
+              "items": [{
+                "tc_item_id": 104386,
+                "pr_id": "PR/BIFROST/29/11/22/2834",
+                "pr_item_id": "ITEM-3",
+                "name": "KERTAS HVS",
+                "material_number": "ATK-KRTS/HVS-003",
+                "uom": "unit",
+                "requested_brand": "SINRDU",
+                "requested_quantity": 10,
+                "requested_note": "",
+                "brand": "",
+                "quantity": 10,
+                "note": "",
+                "unit_cost": 1000000,
+                "delivery_cost": 0,
+                "location": {
+                  "erp_id": "SUHO",
+                  "company": {
+                    "entity_type": "PT",
+                    "erp_id": "SUT",
+                    "name": "Saka Uniti Test"
+                  },
+                  "label": "Saka Uniti Head Office",
+                  "category": "address",
+                  "address": "Kebayoran Baru ",
+                  "postcode": "764735",
+                  "longitude": 0,
+                  "latitude": 0,
+                  "subdistrict": "Kebayoran Baru",
+                  "city": "Kota Jakarta Selatan",
+                  "province": "DKI Jakarta",
+                  "note": "",
+                  "location_type": 1
+                },
+                "discount_type": 0,
+                "discount_value": 0,
+                "discount_total": 0,
+                "total": 10000000,
+                "total_delivery_cost": 0,
+                "unit_cost_after_discount": 1000000,
+                "alternates": null,
+                "is_alternate": false
+              },
+                {
+                  "tc_item_id": 104387,
+                  "pr_id": "PR/BIFROST/29/11/22/2834",
+                  "pr_item_id": "ITEM-2",
+                  "name": "PRINTER EPSON",
+                  "material_number": "IT-APSN/002",
+                  "uom": "unit",
+                  "requested_brand": "EPSEUN",
+                  "requested_quantity": 10,
+                  "requested_note": "",
+                  "brand": "",
+                  "quantity": 10,
+                  "note": "",
+                  "unit_cost": 1000000,
+                  "delivery_cost": 0,
+                  "location": {
+                    "erp_id": "SUHO",
+                    "company": {
+                      "entity_type": "PT",
+                      "erp_id": "SUT",
+                      "name": "Saka Uniti Test"
+                    },
+                    "label": "Saka Uniti Head Office",
+                    "category": "address",
+                    "address": "Kebayoran Baru ",
+                    "postcode": "764735",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Kebayoran Baru",
+                    "city": "Kota Jakarta Selatan",
+                    "province": "DKI Jakarta",
+                    "note": "",
+                    "location_type": 1
+                  },
+                  "discount_type": 0,
+                  "discount_value": 0,
+                  "discount_total": 0,
+                  "total": 10000000,
+                  "total_delivery_cost": 0,
+                  "unit_cost_after_discount": 1000000,
+                  "alternates": null,
+                  "is_alternate": false
+                },
+                {
+                  "tc_item_id": 104388,
+                  "pr_id": "PR/BIFROST/29/11/22/2834",
+                  "pr_item_id": "ITEM-1",
+                  "name": "ATK-Pembolong Kertas",
+                  "material_number": "O1P9322221",
+                  "uom": "unit",
+                  "requested_brand": "JOYKO",
+                  "requested_quantity": 10,
+                  "requested_note": "",
+                  "brand": "",
+                  "quantity": 10,
+                  "note": "",
+                  "unit_cost": 1000000,
+                  "delivery_cost": 0,
+                  "location": {
+                    "erp_id": "SUHO",
+                    "company": {
+                      "entity_type": "PT",
+                      "erp_id": "SUT",
+                      "name": "Saka Uniti Test"
+                    },
+                    "label": "Saka Uniti Head Office",
+                    "category": "address",
+                    "address": "Kebayoran Baru ",
+                    "postcode": "764735",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Kebayoran Baru",
+                    "city": "Kota Jakarta Selatan",
+                    "province": "DKI Jakarta",
+                    "note": "",
+                    "location_type": 1
+                  },
+                  "discount_type": 0,
+                  "discount_value": 0,
+                  "discount_total": 0,
+                  "total": 10000000,
+                  "total_delivery_cost": 0,
+                  "unit_cost_after_discount": 1000000,
+                  "alternates": null,
+                  "is_alternate": false
+                }],
+              "location": {
+                "erp_id": "SUHO",
+                "company": {
+                  "entity_type": "PT",
+                  "erp_id": "SUT",
+                  "name": "Saka Uniti Test"
+                },
+                "label": "Saka Uniti Head Office",
+                "category": "address",
+                "address": "Kebayoran Baru ",
+                "postcode": "764735",
+                "longitude": 0,
+                "latitude": 0,
+                "subdistrict": "Kebayoran Baru",
+                "city": "Kota Jakarta Selatan",
+                "province": "DKI Jakarta",
+                "note": "",
+                "location_type": 1
+              },
+              "franco_area": {
+                "id": 0,
+                "name": "",
+                "category": ""
+              },
+              "total": 30000000,
+              "total_delivery_cost": 0,
+              "discount_type": 0,
+              "discount_value": 0,
+              "discount_amount": 0,
+              "discount_total": 0
+            }]
+          ]
+        },
+        "include_tax": {
+          "type": "boolean",
+          "default": false,
+          "title": "The include_tax Schema",
+          "examples": [
+            true
+          ]
+        },
+        "tax_total": {
+          "type": "integer",
+          "default": 0,
+          "title": "The tax_total Schema",
+          "examples": [
+            3300000
+          ]
+        },
+        "tax_rate": {
+          "type": "integer",
+          "default": 0,
+          "title": "The tax_rate Schema",
+          "examples": [
+            11
+          ]
+        },
+        "discount_type": {
+          "type": "integer",
+          "default": 0,
+          "title": "The discount_type Schema",
+          "examples": [
+            0
+          ]
+        },
+        "discount_value": {
+          "type": "integer",
+          "default": 0,
+          "title": "The discount_value Schema",
+          "examples": [
+            0
+          ]
+        },
+        "discount_total": {
+          "type": "integer",
+          "default": 0,
+          "title": "The discount_total Schema",
+          "examples": [
+            0
+          ]
+        },
+        "total": {
+          "type": "integer",
+          "default": 0,
+          "title": "The total Schema",
+          "examples": [
+            33300000
+          ]
+        },
+        "approved_by": {
+          "type": "null",
+          "default": null,
+          "title": "The approved_by Schema",
+          "examples": [
+            null
+          ]
+        },
+        "status": {
+          "type": "integer",
+          "default": 0,
+          "title": "The status Schema",
+          "examples": [
+            1
+          ]
+        }
+      },
+      "examples": [{
+        "tc_type": 0,
+        "tc_id": "KAMKxMQ0",
+        "tc_no": "TCO/2022/11/50",
+        "priority": 0,
+        "pr_ids": [
+          "PR/BIFROST/29/11/22/2834"
+        ],
+        "rfq": {
+          "id": "K1RomdYW",
+          "no": "RFQ/2022/11/128",
+          "subject": "RFQ TEST",
+          "creator": "Saka Uniti Test"
+        },
+        "vendor": {
+          "id": 2333,
+          "erp_id": "SAKAVUNI",
+          "entity_type": "PT",
+          "name": "SAka Uniti Seller",
+          "npwp": "",
+          "email": "sakaunitiseller@mail.com",
+          "location": {
+            "erp_id": "",
+            "company": {
+              "entity_type": "",
+              "erp_id": "",
+              "name": ""
+            },
+            "label": "",
+            "category": "",
+            "address": "",
+            "postcode": "",
+            "longitude": 0,
+            "latitude": 0,
+            "subdistrict": "",
+            "city": "",
+            "province": "",
+            "note": "",
+            "location_type": 0
+          }
+        },
+        "main_category": [{
+          "id": 1489,
+          "name": "Stationery (ATK)"
+        }],
+        "payment_term": {
+          "id": 0,
+          "erp_id": "",
+          "term": "7 Hari Kerja Setelah Invoice di terima"
+        },
+        "delivery_method": 0,
+        "created_at": "2022-11-29T06:46:07.944967Z",
+        "creator": {
+          "email": "sakaunittest@mail.com",
+          "name": "Saka Uniti Test"
+        },
+        "sent_at": "2022-11-29T06:46:07Z",
+        "sender": {
+          "email": "sakaunittest@mail.com",
+          "name": "Saka Uniti Test"
+        },
+        "deliveries": [{
+          "items": [{
+            "tc_item_id": 104386,
+            "pr_id": "PR/BIFROST/29/11/22/2834",
+            "pr_item_id": "ITEM-3",
+            "name": "KERTAS HVS",
+            "material_number": "ATK-KRTS/HVS-003",
+            "uom": "unit",
+            "requested_brand": "SINRDU",
+            "requested_quantity": 10,
+            "requested_note": "",
+            "brand": "",
+            "quantity": 10,
+            "note": "",
+            "unit_cost": 1000000,
+            "delivery_cost": 0,
+            "location": {
+              "erp_id": "SUHO",
+              "company": {
+                "entity_type": "PT",
+                "erp_id": "SUT",
+                "name": "Saka Uniti Test"
+              },
+              "label": "Saka Uniti Head Office",
+              "category": "address",
+              "address": "Kebayoran Baru ",
+              "postcode": "764735",
+              "longitude": 0,
+              "latitude": 0,
+              "subdistrict": "Kebayoran Baru",
+              "city": "Kota Jakarta Selatan",
+              "province": "DKI Jakarta",
+              "note": "",
+              "location_type": 1
+            },
+            "discount_type": 0,
+            "discount_value": 0,
+            "discount_total": 0,
+            "total": 10000000,
+            "total_delivery_cost": 0,
+            "unit_cost_after_discount": 1000000,
+            "alternates": null,
+            "is_alternate": false
+          },
+            {
+              "tc_item_id": 104387,
+              "pr_id": "PR/BIFROST/29/11/22/2834",
+              "pr_item_id": "ITEM-2",
+              "name": "PRINTER EPSON",
+              "material_number": "IT-APSN/002",
+              "uom": "unit",
+              "requested_brand": "EPSEUN",
+              "requested_quantity": 10,
+              "requested_note": "",
+              "brand": "",
+              "quantity": 10,
+              "note": "",
+              "unit_cost": 1000000,
+              "delivery_cost": 0,
+              "location": {
+                "erp_id": "SUHO",
+                "company": {
+                  "entity_type": "PT",
+                  "erp_id": "SUT",
+                  "name": "Saka Uniti Test"
+                },
+                "label": "Saka Uniti Head Office",
+                "category": "address",
+                "address": "Kebayoran Baru ",
+                "postcode": "764735",
+                "longitude": 0,
+                "latitude": 0,
+                "subdistrict": "Kebayoran Baru",
+                "city": "Kota Jakarta Selatan",
+                "province": "DKI Jakarta",
+                "note": "",
+                "location_type": 1
+              },
+              "discount_type": 0,
+              "discount_value": 0,
+              "discount_total": 0,
+              "total": 10000000,
+              "total_delivery_cost": 0,
+              "unit_cost_after_discount": 1000000,
+              "alternates": null,
+              "is_alternate": false
+            },
+            {
+              "tc_item_id": 104388,
+              "pr_id": "PR/BIFROST/29/11/22/2834",
+              "pr_item_id": "ITEM-1",
+              "name": "ATK-Pembolong Kertas",
+              "material_number": "O1P9322221",
+              "uom": "unit",
+              "requested_brand": "JOYKO",
+              "requested_quantity": 10,
+              "requested_note": "",
+              "brand": "",
+              "quantity": 10,
+              "note": "",
+              "unit_cost": 1000000,
+              "delivery_cost": 0,
+              "location": {
+                "erp_id": "SUHO",
+                "company": {
+                  "entity_type": "PT",
+                  "erp_id": "SUT",
+                  "name": "Saka Uniti Test"
+                },
+                "label": "Saka Uniti Head Office",
+                "category": "address",
+                "address": "Kebayoran Baru ",
+                "postcode": "764735",
+                "longitude": 0,
+                "latitude": 0,
+                "subdistrict": "Kebayoran Baru",
+                "city": "Kota Jakarta Selatan",
+                "province": "DKI Jakarta",
+                "note": "",
+                "location_type": 1
+              },
+              "discount_type": 0,
+              "discount_value": 0,
+              "discount_total": 0,
+              "total": 10000000,
+              "total_delivery_cost": 0,
+              "unit_cost_after_discount": 1000000,
+              "alternates": null,
+              "is_alternate": false
+            }],
+          "location": {
+            "erp_id": "SUHO",
+            "company": {
+              "entity_type": "PT",
+              "erp_id": "SUT",
+              "name": "Saka Uniti Test"
+            },
+            "label": "Saka Uniti Head Office",
+            "category": "address",
+            "address": "Kebayoran Baru ",
+            "postcode": "764735",
+            "longitude": 0,
+            "latitude": 0,
+            "subdistrict": "Kebayoran Baru",
+            "city": "Kota Jakarta Selatan",
+            "province": "DKI Jakarta",
+            "note": "",
+            "location_type": 1
+          },
+          "franco_area": {
+            "id": 0,
+            "name": "",
+            "category": ""
+          },
+          "total": 30000000,
+          "total_delivery_cost": 0,
+          "discount_type": 0,
+          "discount_value": 0,
+          "discount_amount": 0,
+          "discount_total": 0
+        }],
+        "include_tax": true,
+        "tax_total": 3300000,
+        "tax_rate": 11,
+        "discount_type": 0,
+        "discount_value": 0,
+        "discount_total": 0,
+        "total": 33300000,
+        "approved_by": null,
+        "status": 1
+      }]
+    }
+  },
+  "examples": [{
+    "status": 200,
+    "message": "success",
+    "data": {
+      "tc_type": 0,
+      "tc_id": "KAMKxMQ0",
+      "tc_no": "TCO/2022/11/50",
+      "priority": 0,
+      "pr_ids": [
+        "PR/BIFROST/29/11/22/2834"
+      ],
+      "rfq": {
+        "id": "K1RomdYW",
+        "no": "RFQ/2022/11/128",
+        "subject": "RFQ TEST",
+        "creator": "Saka Uniti Test"
+      },
+      "vendor": {
+        "id": 2333,
+        "erp_id": "SAKAVUNI",
+        "entity_type": "PT",
+        "name": "SAka Uniti Seller",
+        "npwp": "",
+        "email": "sakaunitiseller@mail.com",
+        "location": {
+          "erp_id": "",
+          "company": {
+            "entity_type": "",
+            "erp_id": "",
+            "name": ""
+          },
+          "label": "",
+          "category": "",
+          "address": "",
+          "postcode": "",
+          "longitude": 0,
+          "latitude": 0,
+          "subdistrict": "",
+          "city": "",
+          "province": "",
+          "note": "",
+          "location_type": 0
+        }
+      },
+      "main_category": [{
+        "id": 1489,
+        "name": "Stationery (ATK)"
+      }],
+      "payment_term": {
+        "id": 0,
+        "erp_id": "",
+        "term": "7 Hari Kerja Setelah Invoice di terima"
+      },
+      "delivery_method": 0,
+      "created_at": "2022-11-29T06:46:07.944967Z",
+      "creator": {
+        "email": "sakaunittest@mail.com",
+        "name": "Saka Uniti Test"
+      },
+      "sent_at": "2022-11-29T06:46:07Z",
+      "sender": {
+        "email": "sakaunittest@mail.com",
+        "name": "Saka Uniti Test"
+      },
+      "deliveries": [{
+        "items": [{
+          "tc_item_id": 104386,
+          "pr_id": "PR/BIFROST/29/11/22/2834",
+          "pr_item_id": "ITEM-3",
+          "name": "KERTAS HVS",
+          "material_number": "ATK-KRTS/HVS-003",
+          "uom": "unit",
+          "requested_brand": "SINRDU",
+          "requested_quantity": 10,
+          "requested_note": "",
+          "brand": "",
+          "quantity": 10,
+          "note": "",
+          "unit_cost": 1000000,
+          "delivery_cost": 0,
+          "location": {
+            "erp_id": "SUHO",
+            "company": {
+              "entity_type": "PT",
+              "erp_id": "SUT",
+              "name": "Saka Uniti Test"
+            },
+            "label": "Saka Uniti Head Office",
+            "category": "address",
+            "address": "Kebayoran Baru ",
+            "postcode": "764735",
+            "longitude": 0,
+            "latitude": 0,
+            "subdistrict": "Kebayoran Baru",
+            "city": "Kota Jakarta Selatan",
+            "province": "DKI Jakarta",
+            "note": "",
+            "location_type": 1
+          },
+          "discount_type": 0,
+          "discount_value": 0,
+          "discount_total": 0,
+          "total": 10000000,
+          "total_delivery_cost": 0,
+          "unit_cost_after_discount": 1000000,
+          "alternates": null,
+          "is_alternate": false
+        },
+          {
+            "tc_item_id": 104387,
+            "pr_id": "PR/BIFROST/29/11/22/2834",
+            "pr_item_id": "ITEM-2",
+            "name": "PRINTER EPSON",
+            "material_number": "IT-APSN/002",
+            "uom": "unit",
+            "requested_brand": "EPSEUN",
+            "requested_quantity": 10,
+            "requested_note": "",
+            "brand": "",
+            "quantity": 10,
+            "note": "",
+            "unit_cost": 1000000,
+            "delivery_cost": 0,
+            "location": {
+              "erp_id": "SUHO",
+              "company": {
+                "entity_type": "PT",
+                "erp_id": "SUT",
+                "name": "Saka Uniti Test"
+              },
+              "label": "Saka Uniti Head Office",
+              "category": "address",
+              "address": "Kebayoran Baru ",
+              "postcode": "764735",
+              "longitude": 0,
+              "latitude": 0,
+              "subdistrict": "Kebayoran Baru",
+              "city": "Kota Jakarta Selatan",
+              "province": "DKI Jakarta",
+              "note": "",
+              "location_type": 1
+            },
+            "discount_type": 0,
+            "discount_value": 0,
+            "discount_total": 0,
+            "total": 10000000,
+            "total_delivery_cost": 0,
+            "unit_cost_after_discount": 1000000,
+            "alternates": null,
+            "is_alternate": false
+          },
+          {
+            "tc_item_id": 104388,
+            "pr_id": "PR/BIFROST/29/11/22/2834",
+            "pr_item_id": "ITEM-1",
+            "name": "ATK-Pembolong Kertas",
+            "material_number": "O1P9322221",
+            "uom": "unit",
+            "requested_brand": "JOYKO",
+            "requested_quantity": 10,
+            "requested_note": "",
+            "brand": "",
+            "quantity": 10,
+            "note": "",
+            "unit_cost": 1000000,
+            "delivery_cost": 0,
+            "location": {
+              "erp_id": "SUHO",
+              "company": {
+                "entity_type": "PT",
+                "erp_id": "SUT",
+                "name": "Saka Uniti Test"
+              },
+              "label": "Saka Uniti Head Office",
+              "category": "address",
+              "address": "Kebayoran Baru ",
+              "postcode": "764735",
+              "longitude": 0,
+              "latitude": 0,
+              "subdistrict": "Kebayoran Baru",
+              "city": "Kota Jakarta Selatan",
+              "province": "DKI Jakarta",
+              "note": "",
+              "location_type": 1
+            },
+            "discount_type": 0,
+            "discount_value": 0,
+            "discount_total": 0,
+            "total": 10000000,
+            "total_delivery_cost": 0,
+            "unit_cost_after_discount": 1000000,
+            "alternates": null,
+            "is_alternate": false
+          }],
+        "location": {
+          "erp_id": "SUHO",
+          "company": {
+            "entity_type": "PT",
+            "erp_id": "SUT",
+            "name": "Saka Uniti Test"
+          },
+          "label": "Saka Uniti Head Office",
+          "category": "address",
+          "address": "Kebayoran Baru ",
+          "postcode": "764735",
+          "longitude": 0,
+          "latitude": 0,
+          "subdistrict": "Kebayoran Baru",
+          "city": "Kota Jakarta Selatan",
+          "province": "DKI Jakarta",
+          "note": "",
+          "location_type": 1
+        },
+        "franco_area": {
+          "id": 0,
+          "name": "",
+          "category": ""
+        },
+        "total": 30000000,
+        "total_delivery_cost": 0,
+        "discount_type": 0,
+        "discount_value": 0,
+        "discount_amount": 0,
+        "discount_total": 0
+      }],
+      "include_tax": true,
+      "tax_total": 3300000,
+      "tax_rate": 11,
+      "discount_type": 0,
+      "discount_value": 0,
+      "discount_total": 0,
+      "total": 33300000,
+      "approved_by": null,
+      "status": 1
+    }
+  }]
+}

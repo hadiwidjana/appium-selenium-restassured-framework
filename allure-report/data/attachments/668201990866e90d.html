@@ -1,0 +1,126 @@
+<div>POST to https://api-dev-eproc.gokomodo.co/v1/api/purchase-requisitions</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;pr_no&quot;: &quot;PRM2022/DEMO-INTG/22/12/22/2077&quot;,
+    &quot;note&quot;: &quot;PR Automation&quot;,
+    &quot;creator&quot;: {
+        &quot;id&quot;: 2994,
+        &quot;email&quot;: &quot;day6corp@day6.co&quot;
+    },
+    &quot;items&quot;: [
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;O1P9322221&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-1&quot;,
+            &quot;name&quot;: &quot;Pupuk Urea&quot;,
+            &quot;brand&quot;: &quot;Tubrus&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        },
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;JF109F32N&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-2&quot;,
+            &quot;name&quot;: &quot;Pestisida&quot;,
+            &quot;brand&quot;: &quot;Srubut&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        },
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;JNGF10352&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-3&quot;,
+            &quot;name&quot;: &quot;Pupuk Kompos&quot;,
+            &quot;brand&quot;: &quot;Trusub&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        }
+    ],
+    &quot;location_id&quot;: &quot;DAY6F&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIyMzAwIiwiYXV0aG9yaXNlZCI6dHJ1ZSwiZXhwIjoxOTg3MDM3MzUxLCJpYXQiOjE2NzE2NzczNTEsImlzcyI6Imdva29tb2RvLmNvIiwicnRva2VuIjoickVRRWtyUVd5YlliblBxdHNhN28xOEFwclJxQzNSaVV5Zm5DNE1nRkFzQVBIYjBGdnciLCJzdWIiOiJlZTFmMzQwZTI1NzAxMWVjYTg3OTgzNDVmZmNhZGJkZiIsInR5cGUiOjB9.sPyCW0DFHEdzy1tOJkwW7BNKFHxbZHekT5F4dK33y-JlTEDDZNXORAYE04HU_a-wrfNXjdJE9q0TkeL1xXk5zqVTIbSmEOVgp2metZnfbL2JGxKyTlvDy0zJ1NwY6dI31niMKvwCWDSoXp3MNcby3ktD2KfJLmsfXjyzPgSL1WUEOzjs_5AKwzA8eMdoeoKZ7YaRz5YqaZPTnXrSSMobESB3qRBbeNbFIb5ZvH86mPHuWvkOaAAR7QgTz86N8Hs9laVgUbdceO9sntqHRjJfb0A9xdyMPRqAJRDUWzu6bbJHapfuFawHLP9X7XlSC3gRRoh1mExRhhsi4fn9su6YMylTEc7qzqZ2NJAp6UsKLNlKiA7wQLdU55yixa7LqfaBkmLy5_p9l5NNhkNQz94FlAa_nf3JzE4Qn-QlviSJR8bCPpuKpEweGKhOkJ13NzVKJjB0NqvUSCvcpuVgMi52PQvoN4PO9RurulBbgz4SiliCdYGF7C4BGi8n3FFVZ_xjW3c6hpwwiM87Bdsxn_RECyWRsM6gOjp3e86cxsI2zVnuudOpmycpeF5E8BM-_vsdgAiJbls5xEthuV1DWxW5w8La2jW8-hO5yg73O8IEk6S6_TBSAfGFcSxdMeQuXxjfOSsNlipWeRAFHMSCwqZYf3MDPxB8ozik4AgRUPFTUdk</div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://api-dev-eproc.gokomodo.co/v1/api/purchase-requisitions&#39; -H &#39;Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIyMzAwIiwiYXV0aG9yaXNlZCI6dHJ1ZSwiZXhwIjoxOTg3MDM3MzUxLCJpYXQiOjE2NzE2NzczNTEsImlzcyI6Imdva29tb2RvLmNvIiwicnRva2VuIjoickVRRWtyUVd5YlliblBxdHNhN28xOEFwclJxQzNSaVV5Zm5DNE1nRkFzQVBIYjBGdnciLCJzdWIiOiJlZTFmMzQwZTI1NzAxMWVjYTg3OTgzNDVmZmNhZGJkZiIsInR5cGUiOjB9.sPyCW0DFHEdzy1tOJkwW7BNKFHxbZHekT5F4dK33y-JlTEDDZNXORAYE04HU_a-wrfNXjdJE9q0TkeL1xXk5zqVTIbSmEOVgp2metZnfbL2JGxKyTlvDy0zJ1NwY6dI31niMKvwCWDSoXp3MNcby3ktD2KfJLmsfXjyzPgSL1WUEOzjs_5AKwzA8eMdoeoKZ7YaRz5YqaZPTnXrSSMobESB3qRBbeNbFIb5ZvH86mPHuWvkOaAAR7QgTz86N8Hs9laVgUbdceO9sntqHRjJfb0A9xdyMPRqAJRDUWzu6bbJHapfuFawHLP9X7XlSC3gRRoh1mExRhhsi4fn9su6YMylTEc7qzqZ2NJAp6UsKLNlKiA7wQLdU55yixa7LqfaBkmLy5_p9l5NNhkNQz94FlAa_nf3JzE4Qn-QlviSJR8bCPpuKpEweGKhOkJ13NzVKJjB0NqvUSCvcpuVgMi52PQvoN4PO9RurulBbgz4SiliCdYGF7C4BGi8n3FFVZ_xjW3c6hpwwiM87Bdsxn_RECyWRsM6gOjp3e86cxsI2zVnuudOpmycpeF5E8BM-_vsdgAiJbls5xEthuV1DWxW5w8La2jW8-hO5yg73O8IEk6S6_TBSAfGFcSxdMeQuXxjfOSsNlipWeRAFHMSCwqZYf3MDPxB8ozik4AgRUPFTUdk&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;pr_no&quot;: &quot;PRM2022/DEMO-INTG/22/12/22/2077&quot;,
+    &quot;note&quot;: &quot;PR Automation&quot;,
+    &quot;creator&quot;: {
+        &quot;id&quot;: 2994,
+        &quot;email&quot;: &quot;day6corp@day6.co&quot;
+    },
+    &quot;items&quot;: [
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;O1P9322221&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-1&quot;,
+            &quot;name&quot;: &quot;Pupuk Urea&quot;,
+            &quot;brand&quot;: &quot;Tubrus&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        },
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;JF109F32N&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-2&quot;,
+            &quot;name&quot;: &quot;Pestisida&quot;,
+            &quot;brand&quot;: &quot;Srubut&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        },
+        {
+            &quot;note&quot;: &quot;&quot;,
+            &quot;uom&quot;: &quot;unit&quot;,
+            &quot;quantity&quot;: 10,
+            &quot;material_number&quot;: &quot;JNGF10352&quot;,
+            &quot;purchaser&quot;: {
+                &quot;id&quot;: 2994,
+                &quot;email&quot;: &quot;day6corp@day6.co&quot;
+            },
+            &quot;pr_item_id&quot;: &quot;ITEM-3&quot;,
+            &quot;name&quot;: &quot;Pupuk Kompos&quot;,
+            &quot;brand&quot;: &quot;Trusub&quot;,
+            &quot;location_id&quot;: &quot;DAY6F&quot;
+        }
+    ],
+    &quot;location_id&quot;: &quot;DAY6F&quot;
+}&#39;
+</div>

@@ -1,0 +1,81 @@
+{
+  "note": "TEST PR to RFQ 1",
+  "creator": {
+    "id": 2987,
+    "email": "sakaunittest@mail.com"
+  },
+  "expected_delivery_end": "2023-01-08",
+  "expected_delivery_start": "2022-12-23",
+  "department_id": 35,
+  "subject": "Automation Test",
+  "due_date": "2022-12-16 12:00",
+  "priority": 1,
+  "selected_category_id": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "main_category_id": 30,
+  "deliveries": [
+    {
+      "location": {
+        "erp_id": "SUHO",
+        "company_erp_id": "SAKAVUNI"
+      },
+      "items": [
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "JNGF10352",
+          "pr_id": "PRM2022/DEMO-INTG/09/12/22/7170",
+          "pr_item_id": "ITEM-3",
+          "name": "Pupuk Kompos",
+          "location": {
+            "erp_id": "SUHO",
+            "company_erp_id": "SAKAVUNI"
+          },
+          "brand": "Trusub",
+          "budget": 2000000,
+          "last_price": 1000000
+        },
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "JF109F32N",
+          "pr_id": "PRM2022/DEMO-INTG/09/12/22/7170",
+          "pr_item_id": "ITEM-2",
+          "name": "Pestisida",
+          "location": {
+            "erp_id": "SUHO",
+            "company_erp_id": "SAKAVUNI"
+          },
+          "brand": "Srubut",
+          "budget": 2000000,
+          "last_price": 1000000
+        },
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "O1P9322221",
+          "pr_id": "PRM2022/DEMO-INTG/09/12/22/7170",
+          "pr_item_id": "ITEM-1",
+          "name": "Pupuk Urea",
+          "location": {
+            "erp_id": "SUHO",
+            "company_erp_id": "SAKAVUNI"
+          },
+          "brand": "Tubrus",
+          "budget": 2000000,
+          "last_price": 1000000
+        }
+      ]
+    }
+  ],
+  "payment_term_id": 116,
+  "delivery_mode": 0
+}

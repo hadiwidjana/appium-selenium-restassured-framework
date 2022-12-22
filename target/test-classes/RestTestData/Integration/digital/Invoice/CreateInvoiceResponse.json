@@ -1,0 +1,1714 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "id": 19,
+        "invoice_id": "ba12J1lq",
+        "invoice_internal_id": "INV/22/12/22/VENDOR/8939",
+        "invoice_no": "INV/2022/12/6",
+        "seller_invoice_id": "INV/22/12/22/FROMSELLER/8939",
+        "company": {
+            "id": 2300,
+            "entity_type": "",
+            "name": "",
+            "role": 0,
+            "contact": {
+                "id": 0,
+                "email": "",
+                "first_name": "",
+                "last_name": "",
+                "phone_country_code": "",
+                "phone_number": ""
+            },
+            "invited": false,
+            "internal_id": "",
+            "phone": "",
+            "phone_country_code": "",
+            "verified": false,
+            "subscription_plan": 0,
+            "new_vendor": false,
+            "npwp": "",
+            "description": "",
+            "address": "",
+            "website": "",
+            "user": {
+                
+            },
+            "location": {
+                "location_type": {
+                    
+                },
+                "location_integration_custom_data": {
+                    
+                }
+            },
+            "company_integration_custom_data": {
+                
+            },
+            "visibility_information": {
+                
+            }
+        },
+        "seller": {
+            "id": 1893,
+            "entity_type": "",
+            "name": "",
+            "role": 0,
+            "contact": {
+                "id": 0,
+                "email": "",
+                "first_name": "",
+                "last_name": "",
+                "phone_country_code": "",
+                "phone_number": ""
+            },
+            "invited": false,
+            "internal_id": "",
+            "phone": "",
+            "phone_country_code": "",
+            "verified": false,
+            "subscription_plan": 0,
+            "new_vendor": false,
+            "npwp": "123456781234000",
+            "description": "",
+            "address": "",
+            "website": "",
+            "user": {
+                
+            },
+            "location": {
+                "location_type": {
+                    
+                },
+                "location_integration_custom_data": {
+                    
+                }
+            },
+            "company_integration_custom_data": {
+                
+            },
+            "visibility_information": {
+                
+            }
+        },
+        "status": 0,
+        "seller_invoice_date": "2022-12-22T12:00:00+00:00",
+        "deadline_date": "",
+        "created_by": {
+            "id": 2994,
+            "email": "day6corp@day6.co",
+            "first_name": "",
+            "last_name": "",
+            "title": "",
+            "phone_country_code": "",
+            "phone_number": "",
+            "company": {
+                "id": 0,
+                "entity_type": "",
+                "name": "",
+                "role": 0,
+                "contact": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                },
+                "invited": false,
+                "internal_id": "",
+                "phone": "",
+                "phone_country_code": "",
+                "verified": false,
+                "subscription_plan": 0,
+                "new_vendor": false,
+                "npwp": "",
+                "description": "",
+                "address": "",
+                "website": "",
+                "user": {
+                    
+                },
+                "location": {
+                    "location_type": {
+                        
+                    },
+                    "location_integration_custom_data": {
+                        
+                    }
+                },
+                "company_integration_custom_data": {
+                    
+                },
+                "visibility_information": {
+                    
+                }
+            },
+            "user_level": 0,
+            "deactivated_at": "",
+            "user_id": "",
+            "external_email": ""
+        },
+        "created_at": "",
+        "updated_by": {
+            "id": 0,
+            "email": "",
+            "first_name": "",
+            "last_name": "",
+            "title": "",
+            "phone_country_code": "",
+            "phone_number": "",
+            "company": {
+                "id": 0,
+                "entity_type": "",
+                "name": "",
+                "role": 0,
+                "contact": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                },
+                "invited": false,
+                "internal_id": "",
+                "phone": "",
+                "phone_country_code": "",
+                "verified": false,
+                "subscription_plan": 0,
+                "new_vendor": false,
+                "npwp": "",
+                "description": "",
+                "address": "",
+                "website": "",
+                "user": {
+                    
+                },
+                "location": {
+                    "location_type": {
+                        
+                    },
+                    "location_integration_custom_data": {
+                        
+                    }
+                },
+                "company_integration_custom_data": {
+                    
+                },
+                "visibility_information": {
+                    
+                }
+            },
+            "user_level": 0,
+            "deactivated_at": "",
+            "user_id": "",
+            "external_email": ""
+        },
+        "updated_at": "",
+        "paid_by": {
+            "id": 0,
+            "email": "",
+            "first_name": "",
+            "last_name": "",
+            "title": "",
+            "phone_country_code": "",
+            "phone_number": "",
+            "company": {
+                "id": 0,
+                "entity_type": "",
+                "name": "",
+                "role": 0,
+                "contact": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                },
+                "invited": false,
+                "internal_id": "",
+                "phone": "",
+                "phone_country_code": "",
+                "verified": false,
+                "subscription_plan": 0,
+                "new_vendor": false,
+                "npwp": "",
+                "description": "",
+                "address": "",
+                "website": "",
+                "user": {
+                    
+                },
+                "location": {
+                    "location_type": {
+                        
+                    },
+                    "location_integration_custom_data": {
+                        
+                    }
+                },
+                "company_integration_custom_data": {
+                    
+                },
+                "visibility_information": {
+                    
+                }
+            },
+            "user_level": 0,
+            "deactivated_at": "",
+            "user_id": "",
+            "external_email": ""
+        },
+        "paid_at": "",
+        "cancelled_by": {
+            "id": 0,
+            "email": "",
+            "first_name": "",
+            "last_name": "",
+            "title": "",
+            "phone_country_code": "",
+            "phone_number": "",
+            "company": {
+                "id": 0,
+                "entity_type": "",
+                "name": "",
+                "role": 0,
+                "contact": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                },
+                "invited": false,
+                "internal_id": "",
+                "phone": "",
+                "phone_country_code": "",
+                "verified": false,
+                "subscription_plan": 0,
+                "new_vendor": false,
+                "npwp": "",
+                "description": "",
+                "address": "",
+                "website": "",
+                "user": {
+                    
+                },
+                "location": {
+                    "location_type": {
+                        
+                    },
+                    "location_integration_custom_data": {
+                        
+                    }
+                },
+                "company_integration_custom_data": {
+                    
+                },
+                "visibility_information": {
+                    
+                }
+            },
+            "user_level": 0,
+            "deactivated_at": "",
+            "user_id": "",
+            "external_email": ""
+        },
+        "cancelled_at": "",
+        "discarded_by": {
+            "id": 0,
+            "email": "",
+            "first_name": "",
+            "last_name": "",
+            "title": "",
+            "phone_country_code": "",
+            "phone_number": "",
+            "company": {
+                "id": 0,
+                "entity_type": "",
+                "name": "",
+                "role": 0,
+                "contact": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                },
+                "invited": false,
+                "internal_id": "",
+                "phone": "",
+                "phone_country_code": "",
+                "verified": false,
+                "subscription_plan": 0,
+                "new_vendor": false,
+                "npwp": "",
+                "description": "",
+                "address": "",
+                "website": "",
+                "user": {
+                    
+                },
+                "location": {
+                    "location_type": {
+                        
+                    },
+                    "location_integration_custom_data": {
+                        
+                    }
+                },
+                "company_integration_custom_data": {
+                    
+                },
+                "visibility_information": {
+                    
+                }
+            },
+            "user_level": 0,
+            "deactivated_at": "",
+            "user_id": "",
+            "external_email": ""
+        },
+        "discarded_at": "",
+        "items": [
+            {
+                "id": 0,
+                "invoice_id": 0,
+                "item_id": "",
+                "item_internal_id": "ITEM-3",
+                "name": "Pupuk Kompos",
+                "material_number": "JNGF10352",
+                "uom": "unit",
+                "unit_cost": 1000,
+                "quantity": 10,
+                "sub_total": 10000,
+                "down_payment": 681,
+                "discount": 1000,
+                "freight": 1000,
+                "misc": 100,
+                "tax": 10,
+                "total": 10110,
+                "purchase_order_items": [
+                    {
+                        "id": 0,
+                        "po_internal_id": "",
+                        "purchase_order_delivery_id": 0,
+                        "rfq_item": {
+                            "id": 0,
+                            "name": "",
+                            "quantity": 0,
+                            "uom": "",
+                            "notes": "",
+                            "brand": "",
+                            "material_number": "",
+                            "created_at": "",
+                            "updated_at": "",
+                            "discarded_at": null,
+                            "subsidiary": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "location": {
+                                "id": null,
+                                "company": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "label": "",
+                                "location_type": {
+                                    "id": 0,
+                                    "name": ""
+                                },
+                                "category": "",
+                                "address_line_1": "",
+                                "address_line_2": "",
+                                "subdistrict": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "city": {
+                                    "id": 0,
+                                    "name": "",
+                                    "category": ""
+                                },
+                                "province": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "postcode": "",
+                                "longitude": 0,
+                                "latitude": 0,
+                                "notes": "",
+                                "internal_id": ""
+                            },
+                            "pr_id": "",
+                            "remaining_qty": 0,
+                            "pr_item_id": "",
+                            "root_category_id": 0
+                        },
+                        "trade_confirmation_delivery_item_id": 0,
+                        "pr_id": "",
+                        "pr_item_id": "",
+                        "name": "",
+                        "material_number": "",
+                        "brand": "",
+                        "quantity": 0,
+                        "quantity_in_stock": 0,
+                        "quantity_indent": 0,
+                        "uom": "",
+                        "notes": "",
+                        "unit_cost": 0,
+                        "location": {
+                            "id": null,
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "label": "",
+                            "location_type": {
+                                "id": 0,
+                                "name": ""
+                            },
+                            "category": "",
+                            "address_line_1": "",
+                            "address_line_2": "",
+                            "subdistrict": {
+                                "id": null,
+                                "name": ""
+                            },
+                            "city": {
+                                "id": 0,
+                                "name": "",
+                                "category": ""
+                            },
+                            "province": {
+                                "id": null,
+                                "name": ""
+                            },
+                            "postcode": "",
+                            "longitude": 0,
+                            "latitude": 0,
+                            "notes": "",
+                            "internal_id": ""
+                        },
+                        "company": {
+                            "id": 0,
+                            "entity_type": "",
+                            "name": "",
+                            "role": 0,
+                            "contact": {
+                                "id": 0,
+                                "email": "",
+                                "first_name": "",
+                                "last_name": "",
+                                "phone_country_code": "",
+                                "phone_number": ""
+                            },
+                            "invited": false,
+                            "internal_id": "",
+                            "phone": "",
+                            "phone_country_code": "",
+                            "verified": false,
+                            "subscription_plan": 0,
+                            "new_vendor": false,
+                            "npwp": "",
+                            "description": "",
+                            "address": "",
+                            "website": "",
+                            "user": {
+                                
+                            },
+                            "location": {
+                                "location_type": {
+                                    
+                                },
+                                "location_integration_custom_data": {
+                                    
+                                }
+                            },
+                            "company_integration_custom_data": {
+                                
+                            },
+                            "visibility_information": {
+                                
+                            }
+                        },
+                        "subsidiary": {
+                            "id": 0,
+                            "entity_type": "",
+                            "name": "",
+                            "role": 0,
+                            "contact": {
+                                "id": 0,
+                                "email": "",
+                                "first_name": "",
+                                "last_name": "",
+                                "phone_country_code": "",
+                                "phone_number": ""
+                            },
+                            "invited": false,
+                            "internal_id": "",
+                            "phone": "",
+                            "phone_country_code": "",
+                            "verified": false,
+                            "subscription_plan": 0,
+                            "new_vendor": false,
+                            "npwp": "",
+                            "description": "",
+                            "address": "",
+                            "website": "",
+                            "user": {
+                                
+                            },
+                            "location": {
+                                "location_type": {
+                                    
+                                },
+                                "location_integration_custom_data": {
+                                    
+                                }
+                            },
+                            "company_integration_custom_data": {
+                                
+                            },
+                            "visibility_information": {
+                                
+                            }
+                        },
+                        "delivery_cost": 0,
+                        "delivered_unit_cost": 0,
+                        "creator": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "title": "",
+                            "phone_country_code": "",
+                            "phone_number": "",
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "user_level": 0,
+                            "deactivated_at": "",
+                            "user_id": "",
+                            "external_email": ""
+                        },
+                        "created_at": "",
+                        "updater": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "title": "",
+                            "phone_country_code": "",
+                            "phone_number": "",
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "user_level": 0,
+                            "deactivated_at": "",
+                            "user_id": "",
+                            "external_email": ""
+                        },
+                        "updated_at": "",
+                        "discount_type": 0,
+                        "discount_value": 0,
+                        "discount_amount": 0,
+                        "discount_total": 0,
+                        "total": 0,
+                        "quotation_quantity": 0,
+                        "purchased_quantity": 0,
+                        "total_purchased_quantity": 0,
+                        "availability": 0,
+                        "indent_start": "",
+                        "indent_end": "",
+                        "merged_id": 0
+                    }
+                ],
+                "po_total_quantity": 10,
+                "goods_received_items": [
+                    {
+                        "id": 0,
+                        "gr_internal_id": "",
+                        "po_item": {
+                            "id": 0,
+                            "po_internal_id": "",
+                            "purchase_order_delivery_id": 0,
+                            "rfq_item": {
+                                "id": 0,
+                                "name": "",
+                                "quantity": 0,
+                                "uom": "",
+                                "notes": "",
+                                "brand": "",
+                                "material_number": "",
+                                "created_at": "",
+                                "updated_at": "",
+                                "discarded_at": null,
+                                "subsidiary": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "location": {
+                                    "id": null,
+                                    "company": {
+                                        "id": 0,
+                                        "entity_type": "",
+                                        "name": "",
+                                        "role": 0,
+                                        "contact": {
+                                            "id": 0,
+                                            "email": "",
+                                            "first_name": "",
+                                            "last_name": "",
+                                            "phone_country_code": "",
+                                            "phone_number": ""
+                                        },
+                                        "invited": false,
+                                        "internal_id": "",
+                                        "phone": "",
+                                        "phone_country_code": "",
+                                        "verified": false,
+                                        "subscription_plan": 0,
+                                        "new_vendor": false,
+                                        "npwp": "",
+                                        "description": "",
+                                        "address": "",
+                                        "website": "",
+                                        "user": {
+                                            
+                                        },
+                                        "location": {
+                                            "location_type": {
+                                                
+                                            },
+                                            "location_integration_custom_data": {
+                                                
+                                            }
+                                        },
+                                        "company_integration_custom_data": {
+                                            
+                                        },
+                                        "visibility_information": {
+                                            
+                                        }
+                                    },
+                                    "label": "",
+                                    "location_type": {
+                                        "id": 0,
+                                        "name": ""
+                                    },
+                                    "category": "",
+                                    "address_line_1": "",
+                                    "address_line_2": "",
+                                    "subdistrict": {
+                                        "id": null,
+                                        "name": ""
+                                    },
+                                    "city": {
+                                        "id": 0,
+                                        "name": "",
+                                        "category": ""
+                                    },
+                                    "province": {
+                                        "id": null,
+                                        "name": ""
+                                    },
+                                    "postcode": "",
+                                    "longitude": 0,
+                                    "latitude": 0,
+                                    "notes": "",
+                                    "internal_id": ""
+                                },
+                                "pr_id": "",
+                                "remaining_qty": 0,
+                                "pr_item_id": "",
+                                "root_category_id": 0
+                            },
+                            "trade_confirmation_delivery_item_id": 0,
+                            "pr_id": "",
+                            "pr_item_id": "",
+                            "name": "",
+                            "material_number": "",
+                            "brand": "",
+                            "quantity": 0,
+                            "quantity_in_stock": 0,
+                            "quantity_indent": 0,
+                            "uom": "",
+                            "notes": "",
+                            "unit_cost": 0,
+                            "location": {
+                                "id": null,
+                                "company": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "label": "",
+                                "location_type": {
+                                    "id": 0,
+                                    "name": ""
+                                },
+                                "category": "",
+                                "address_line_1": "",
+                                "address_line_2": "",
+                                "subdistrict": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "city": {
+                                    "id": 0,
+                                    "name": "",
+                                    "category": ""
+                                },
+                                "province": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "postcode": "",
+                                "longitude": 0,
+                                "latitude": 0,
+                                "notes": "",
+                                "internal_id": ""
+                            },
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "subsidiary": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "delivery_cost": 0,
+                            "delivered_unit_cost": 0,
+                            "creator": {
+                                "id": 0,
+                                "email": "",
+                                "first_name": "",
+                                "last_name": "",
+                                "title": "",
+                                "phone_country_code": "",
+                                "phone_number": "",
+                                "company": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "user_level": 0,
+                                "deactivated_at": "",
+                                "user_id": "",
+                                "external_email": ""
+                            },
+                            "created_at": "",
+                            "updater": {
+                                "id": 0,
+                                "email": "",
+                                "first_name": "",
+                                "last_name": "",
+                                "title": "",
+                                "phone_country_code": "",
+                                "phone_number": "",
+                                "company": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "user_level": 0,
+                                "deactivated_at": "",
+                                "user_id": "",
+                                "external_email": ""
+                            },
+                            "updated_at": "",
+                            "discount_type": 0,
+                            "discount_value": 0,
+                            "discount_amount": 0,
+                            "discount_total": 0,
+                            "total": 0,
+                            "quotation_quantity": 0,
+                            "purchased_quantity": 0,
+                            "total_purchased_quantity": 0,
+                            "availability": 0,
+                            "indent_start": "",
+                            "indent_end": "",
+                            "merged_id": 0
+                        },
+                        "rfq_item": {
+                            "id": 0,
+                            "name": "",
+                            "quantity": 0,
+                            "uom": "",
+                            "notes": "",
+                            "brand": "",
+                            "material_number": "",
+                            "created_at": "",
+                            "updated_at": "",
+                            "discarded_at": null,
+                            "subsidiary": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "location": {
+                                "id": null,
+                                "company": {
+                                    "id": 0,
+                                    "entity_type": "",
+                                    "name": "",
+                                    "role": 0,
+                                    "contact": {
+                                        "id": 0,
+                                        "email": "",
+                                        "first_name": "",
+                                        "last_name": "",
+                                        "phone_country_code": "",
+                                        "phone_number": ""
+                                    },
+                                    "invited": false,
+                                    "internal_id": "",
+                                    "phone": "",
+                                    "phone_country_code": "",
+                                    "verified": false,
+                                    "subscription_plan": 0,
+                                    "new_vendor": false,
+                                    "npwp": "",
+                                    "description": "",
+                                    "address": "",
+                                    "website": "",
+                                    "user": {
+                                        
+                                    },
+                                    "location": {
+                                        "location_type": {
+                                            
+                                        },
+                                        "location_integration_custom_data": {
+                                            
+                                        }
+                                    },
+                                    "company_integration_custom_data": {
+                                        
+                                    },
+                                    "visibility_information": {
+                                        
+                                    }
+                                },
+                                "label": "",
+                                "location_type": {
+                                    "id": 0,
+                                    "name": ""
+                                },
+                                "category": "",
+                                "address_line_1": "",
+                                "address_line_2": "",
+                                "subdistrict": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "city": {
+                                    "id": 0,
+                                    "name": "",
+                                    "category": ""
+                                },
+                                "province": {
+                                    "id": null,
+                                    "name": ""
+                                },
+                                "postcode": "",
+                                "longitude": 0,
+                                "latitude": 0,
+                                "notes": "",
+                                "internal_id": ""
+                            },
+                            "pr_id": "",
+                            "remaining_qty": 0,
+                            "pr_item_id": "",
+                            "root_category_id": 0
+                        },
+                        "quantity": 0,
+                        "quantity_rfq": 0,
+                        "receive_note": "",
+                        "reject_note": "",
+                        "receive_status": 0,
+                        "created_by": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "title": "",
+                            "phone_country_code": "",
+                            "phone_number": "",
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "user_level": 0,
+                            "deactivated_at": "",
+                            "user_id": "",
+                            "external_email": ""
+                        },
+                        "created_at": "",
+                        "updated_by": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "title": "",
+                            "phone_country_code": "",
+                            "phone_number": "",
+                            "company": {
+                                "id": 0,
+                                "entity_type": "",
+                                "name": "",
+                                "role": 0,
+                                "contact": {
+                                    "id": 0,
+                                    "email": "",
+                                    "first_name": "",
+                                    "last_name": "",
+                                    "phone_country_code": "",
+                                    "phone_number": ""
+                                },
+                                "invited": false,
+                                "internal_id": "",
+                                "phone": "",
+                                "phone_country_code": "",
+                                "verified": false,
+                                "subscription_plan": 0,
+                                "new_vendor": false,
+                                "npwp": "",
+                                "description": "",
+                                "address": "",
+                                "website": "",
+                                "user": {
+                                    
+                                },
+                                "location": {
+                                    "location_type": {
+                                        
+                                    },
+                                    "location_integration_custom_data": {
+                                        
+                                    }
+                                },
+                                "company_integration_custom_data": {
+                                    
+                                },
+                                "visibility_information": {
+                                    
+                                }
+                            },
+                            "user_level": 0,
+                            "deactivated_at": "",
+                            "user_id": "",
+                            "external_email": ""
+                        },
+                        "updated_at": "",
+                        "name": "",
+                        "material_number": "",
+                        "uom": "",
+                        "brand": "",
+                        "pr_id": "",
+                        "pr_item_id": "",
+                        "po_item_db_id": 0,
+                        "attachments": null,
+                        "quotation_notes": "",
+                        "rejected": 0
+                    }
+                ],
+                "gr_total_quantity": 10,
+                "note": "",
+                "description": "automation",
+                "created_by": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "title": "",
+                    "phone_country_code": "",
+                    "phone_number": "",
+                    "company": {
+                        "id": 0,
+                        "entity_type": "",
+                        "name": "",
+                        "role": 0,
+                        "contact": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "phone_country_code": "",
+                            "phone_number": ""
+                        },
+                        "invited": false,
+                        "internal_id": "",
+                        "phone": "",
+                        "phone_country_code": "",
+                        "verified": false,
+                        "subscription_plan": 0,
+                        "new_vendor": false,
+                        "npwp": "",
+                        "description": "",
+                        "address": "",
+                        "website": "",
+                        "user": {
+                            
+                        },
+                        "location": {
+                            "location_type": {
+                                
+                            },
+                            "location_integration_custom_data": {
+                                
+                            }
+                        },
+                        "company_integration_custom_data": {
+                            
+                        },
+                        "visibility_information": {
+                            
+                        }
+                    },
+                    "user_level": 0,
+                    "deactivated_at": "",
+                    "user_id": "",
+                    "external_email": ""
+                },
+                "created_at": "",
+                "updated_by": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "title": "",
+                    "phone_country_code": "",
+                    "phone_number": "",
+                    "company": {
+                        "id": 0,
+                        "entity_type": "",
+                        "name": "",
+                        "role": 0,
+                        "contact": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "phone_country_code": "",
+                            "phone_number": ""
+                        },
+                        "invited": false,
+                        "internal_id": "",
+                        "phone": "",
+                        "phone_country_code": "",
+                        "verified": false,
+                        "subscription_plan": 0,
+                        "new_vendor": false,
+                        "npwp": "",
+                        "description": "",
+                        "address": "",
+                        "website": "",
+                        "user": {
+                            
+                        },
+                        "location": {
+                            "location_type": {
+                                
+                            },
+                            "location_integration_custom_data": {
+                                
+                            }
+                        },
+                        "company_integration_custom_data": {
+                            
+                        },
+                        "visibility_information": {
+                            
+                        }
+                    },
+                    "user_level": 0,
+                    "deactivated_at": "",
+                    "user_id": "",
+                    "external_email": ""
+                },
+                "updated_at": "",
+                "discarded_by": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "title": "",
+                    "phone_country_code": "",
+                    "phone_number": "",
+                    "company": {
+                        "id": 0,
+                        "entity_type": "",
+                        "name": "",
+                        "role": 0,
+                        "contact": {
+                            "id": 0,
+                            "email": "",
+                            "first_name": "",
+                            "last_name": "",
+                            "phone_country_code": "",
+                            "phone_number": ""
+                        },
+                        "invited": false,
+                        "internal_id": "",
+                        "phone": "",
+                        "phone_country_code": "",
+                        "verified": false,
+                        "subscription_plan": 0,
+                        "new_vendor": false,
+                        "npwp": "",
+                        "description": "",
+                        "address": "",
+                        "website": "",
+                        "user": {
+                            
+                        },
+                        "location": {
+                            "location_type": {
+                                
+                            },
+                            "location_integration_custom_data": {
+                                
+                            }
+                        },
+                        "company_integration_custom_data": {
+                            
+                        },
+                        "visibility_information": {
+                            
+                        }
+                    },
+                    "user_level": 0,
+                    "deactivated_at": "",
+                    "user_id": "",
+                    "external_email": ""
+                },
+                "discarded_at": ""
+            }
+        ],
+        "data_source": 2,
+        "purchase_orders": null,
+        "goods_receiveds": null,
+        "total": 10110,
+        "note": "create invoice test",
+        "cancel_reason": "",
+        "payment_terms": [
+            {
+                "id": 681,
+                "company": {
+                    "id": null,
+                    "entity_type": "",
+                    "name": ""
+                },
+                "terms": "14 Hari Kerja Setelah Barang Diterima",
+                "integration_custom_data": {
+                    
+                }
+            }
+        ],
+        "integration_custom_data": {
+            "external_created_by_email": "",
+            "external_paid_by_email": "",
+            "external_cancelled_by_email": "",
+            "external_payment_terms": null
+        }
+    }
+}

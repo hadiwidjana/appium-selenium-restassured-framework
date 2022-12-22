@@ -1,0 +1,33 @@
+{
+    "status": 200,
+    "message": "",
+    "pagination": {
+        "pages": 1,
+        "per_page": 25,
+        "page_count": 1,
+        "total_count": 3,
+        "links": {
+            "first": "http://api-dev-eproc.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "previous": "",
+            "current": "http://api-dev-eproc.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "next": ""
+        }
+    },
+    "data": [
+        {
+            "id": 681,
+            "erp_id": "",
+            "terms": "14 Hari Kerja Setelah Barang Diterima"
+        },
+        {
+            "id": 648,
+            "erp_id": "",
+            "terms": "Dp10%"
+        },
+        {
+            "id": 565,
+            "erp_id": "",
+            "terms": "28 hari setelah barang diterima"
+        }
+    ]
+}

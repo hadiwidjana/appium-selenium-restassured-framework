@@ -1,0 +1,34 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "id": 2989,
+            "email": "sakauniti1@mail.com",
+            "first_name": "Saka Uniti",
+            "last_name": "Team1",
+            "title": ""
+        },
+        {
+            "id": 2987,
+            "email": "sakaunittest@mail.com",
+            "first_name": "Saka Uniti",
+            "last_name": "Test",
+            "title": "OIwner"
+        },
+        {
+            "id": 2991,
+            "email": "sakauniti3@mail.com",
+            "first_name": "Saka Uniti",
+            "last_name": "Team3",
+            "title": ""
+        },
+        {
+            "id": 2990,
+            "email": "sakauniti2@mail.com",
+            "first_name": "Saka Uniti",
+            "last_name": "Team2",
+            "title": ""
+        }
+    ]
+}

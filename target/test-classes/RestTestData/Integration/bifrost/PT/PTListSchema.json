@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "status",
+    "message",
+    "pagination",
+    "data"
+  ],
+  "properties": {
+    "status": {
+      "type": "integer",
+      "default": 0,
+      "title": "The status Schema",
+      "examples": [
+        200
+      ]
+    },
+    "message": {
+      "type": "string",
+      "default": "",
+      "title": "The message Schema",
+      "examples": [
+        ""
+      ]
+    },
+    "pagination": {
+      "type": "object",
+      "default": {},
+      "title": "The pagination Schema",
+      "required": [
+        "pages",
+        "per_page",
+        "page_count",
+        "total_count",
+        "links"
+      ],
+      "properties": {
+        "pages": {
+          "type": "integer",
+          "default": 0,
+          "title": "The pages Schema",
+          "examples": [
+            1
+          ]
+        },
+        "per_page": {
+          "type": "integer",
+          "default": 0,
+          "title": "The per_page Schema",
+          "examples": [
+            25
+          ]
+        },
+        "page_count": {
+          "type": "integer",
+          "default": 0,
+          "title": "The page_count Schema",
+          "examples": [
+            1
+          ]
+        },
+        "total_count": {
+          "type": "integer",
+          "default": 0,
+          "title": "The total_count Schema",
+          "examples": [
+            15
+          ]
+        },
+        "links": {
+          "type": "object",
+          "default": {},
+          "title": "The links Schema",
+          "required": [
+            "first",
+            "previous",
+            "current",
+            "next"
+          ],
+          "properties": {
+            "first": {
+              "type": "string",
+              "default": "",
+              "title": "The first Schema",
+              "examples": [
+                "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1"
+              ]
+            },
+            "previous": {
+              "type": "string",
+              "default": "",
+              "title": "The previous Schema",
+              "examples": [
+                ""
+              ]
+            },
+            "current": {
+              "type": "string",
+              "default": "",
+              "title": "The current Schema",
+              "examples": [
+                "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1"
+              ]
+            },
+            "next": {
+              "type": "string",
+              "default": "",
+              "title": "The next Schema",
+              "examples": [
+                ""
+              ]
+            }
+          },
+          "examples": [{
+            "first": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "previous": "",
+            "current": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+            "next": ""
+          }]
+        }
+      },
+      "examples": [{
+        "pages": 1,
+        "per_page": 25,
+        "page_count": 1,
+        "total_count": 15,
+        "links": {
+          "first": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+          "previous": "",
+          "current": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+          "next": ""
+        }
+      }]
+    },
+    "data": {
+      "type": "array",
+      "default": [],
+      "title": "The data Schema",
+      "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": [
+          "id",
+          "erp_id",
+          "terms"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+              130
+            ]
+          },
+          "erp_id": {
+            "type": "string",
+            "default": "",
+            "title": "The erp_id Schema",
+            "examples": [
+              ""
+            ]
+          },
+          "terms": {
+            "type": "string",
+            "default": "",
+            "title": "The terms Schema",
+            "examples": [
+              "test"
+            ]
+          }
+        },
+        "examples": [{
+          "id": 130,
+          "erp_id": "",
+          "terms": "test"
+        }]
+      },
+      "examples": [
+        [{
+          "id": 130,
+          "erp_id": "",
+          "terms": "test"
+        }]
+      ]
+    }
+  },
+  "examples": [{
+    "status": 200,
+    "message": "",
+    "pagination": {
+      "pages": 1,
+      "per_page": 25,
+      "page_count": 1,
+      "total_count": 15,
+      "links": {
+        "first": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+        "previous": "",
+        "current": "http://api-dev-integration.gokomodo.co/v1/api/master/payment-terms?page=1",
+        "next": ""
+      }
+    },
+    "data": [{
+      "id": 130,
+      "erp_id": "",
+      "terms": "test"
+    }]
+  }]
+}

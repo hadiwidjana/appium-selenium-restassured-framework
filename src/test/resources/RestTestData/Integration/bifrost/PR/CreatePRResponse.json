@@ -1,0 +1,116 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "pr_no": "PRM2022/DEMO-INTG/22/12/22/109",
+        "note": "PR Automation",
+        "location_id": "",
+        "subsidiary_id": "",
+        "items": [
+            {
+                "name": "Pupuk Kompos",
+                "material_number": "JNGF10352",
+                "pr_item_id": "ITEM-3",
+                "quantity": 10,
+                "uom": "unit",
+                "note": "",
+                "brand": "Trusub",
+                "location_id": "",
+                "subsidiary_id": "SUT",
+                "purchaser": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": ""
+                },
+                "creator": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": "Saka Uniti Test"
+                },
+                "created_at": "",
+                "updated_by": {
+                    "email": "",
+                    "name": " "
+                },
+                "discarded_by": {
+                    "email": "",
+                    "name": " "
+                }
+            },
+            {
+                "name": "Pestisida",
+                "material_number": "JF109F32N",
+                "pr_item_id": "ITEM-2",
+                "quantity": 10,
+                "uom": "unit",
+                "note": "",
+                "brand": "Srubut",
+                "location_id": "",
+                "subsidiary_id": "SUT",
+                "purchaser": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": ""
+                },
+                "creator": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": "Saka Uniti Test"
+                },
+                "created_at": "",
+                "updated_by": {
+                    "email": "",
+                    "name": " "
+                },
+                "discarded_by": {
+                    "email": "",
+                    "name": " "
+                }
+            },
+            {
+                "name": "Pupuk Urea",
+                "material_number": "O1P9322221",
+                "pr_item_id": "ITEM-1",
+                "quantity": 10,
+                "uom": "unit",
+                "note": "",
+                "brand": "Tubrus",
+                "location_id": "",
+                "subsidiary_id": "SUT",
+                "purchaser": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": ""
+                },
+                "creator": {
+                    "id": 2987,
+                    "email": "sakaunittest@mail.com",
+                    "name": "Saka Uniti Test"
+                },
+                "created_at": "",
+                "updated_by": {
+                    "email": "",
+                    "name": " "
+                },
+                "discarded_by": {
+                    "email": "",
+                    "name": " "
+                }
+            }
+        ],
+        "creator": {
+            "id": 2987,
+            "email": "sakaunittest@mail.com",
+            "name": "Saka Uniti Test"
+        },
+        "created_at": "",
+        "updated_by": {
+            "email": "",
+            "name": " "
+        },
+        "cancelled_by": {
+            "email": "",
+            "name": " "
+        }
+    }
+}

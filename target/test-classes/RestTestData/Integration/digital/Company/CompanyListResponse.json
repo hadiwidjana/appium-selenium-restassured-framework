@@ -1,0 +1,73 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "info": {
+            "found": 1,
+            "not_found": 0,
+            "found_list": [
+                1893
+            ],
+            "not_found_list": null
+        },
+        "vendors": [
+            {
+                "id": 1893,
+                "entity_type": "PT",
+                "name": "Alpha Teknologi 01 testing",
+                "npwp": "123456781234000",
+                "email": "alpha01@tech.id",
+                "phone_country_code": "93",
+                "phone_number": "087812631232",
+                "description": "testtt",
+                "website": "",
+                "contact": {
+                    "email": "alpha01@tech.id",
+                    "first_name": "Alpha 01",
+                    "last_name": "- Owner",
+                    "phone_country_code": "62",
+                    "phone_number": "890328323"
+                },
+                "location": {
+                    "label": "test",
+                    "category": "address",
+                    "address": "line1 line2",
+                    "postcode": "111111",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Baros",
+                    "city": "Kabupaten Serang",
+                    "province": "Banten",
+                    "country": "Indonesia",
+                    "note": "",
+                    "location_type": 1,
+                    "location_type_name": ""
+                },
+                "served_areas": [
+                    "Banten",
+                    "DI Yogyakarta",
+                    "DKI Jakarta",
+                    "Jawa Barat",
+                    "Jawa Tengah",
+                    "Jawa Timur",
+                    "Gorontalo",
+                    "Sulawesi Barat",
+                    "Sulawesi Selatan",
+                    "Sulawesi Tengah",
+                    "Sulawesi Tenggara",
+                    "Sulawesi Utara"
+                ],
+                "user": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "title": "",
+                    "notes": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                }
+            }
+        ]
+    }
+}

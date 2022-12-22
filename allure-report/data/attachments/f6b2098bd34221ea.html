@@ -1,0 +1,34 @@
+<div>PUT to https://api-dev-eproc.gokomodo.co/v1/api/purchase-orders/approve</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;user&quot;: {
+        &quot;id&quot;: 2994,
+        &quot;email&quot;: &quot;day6corp@day6.co&quot;
+    },
+    &quot;po_no&quot;: &quot;PO/RFQ/2022/12/22/22/3279&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIyMzAwIiwiYXV0aG9yaXNlZCI6dHJ1ZSwiZXhwIjoxOTg3MDM3NDM3LCJpYXQiOjE2NzE2Nzc0MzcsImlzcyI6Imdva29tb2RvLmNvIiwicnRva2VuIjoiRUFCcHk3UUtESlRTS0xXZU9OdkYyTnBxWUpyUmFmanlNbU1yOEh0V3VkcnZkMWRwY0pVIiwic3ViIjoiZWUxZjM0MGUyNTcwMTFlY2E4Nzk4MzQ1ZmZjYWRiZGYiLCJ0eXBlIjowfQ.w38b7KBLvqFqeq5sfJqEwjt5zIPrzDeuxW3CoRNMdvrmEQBJ1PpyHQFZzF38Vp5HHYiuPOvjESrHu80ACeORdJbHyugM_uqy9KdtGXn4F6wM8_4Bs_1cS_IqYy-9A-ZnBMOAmyzLiay9P5LmQN9RZT6PQ7k9Jd28iy1M_01Xvq7j-kugWx2VaXkygpZ9oeYeas4tRLXUIj27HpBnx4JBl73MW6sHGMlClVuztvUjbnmiAnURTg1dPHHLsWKAhBh-vZrqt3eSwY_HXVxn1D38kZhr6vsfQ-2HAPcMhyToltm4Y4BiLWNsPs-2yihBCHRJjS6ClyZ29mcVYUA7JqtbPswPtj8fRbpnxqQtgEf5NPPQmrYflh2bA75CSrh5wzZauBlrFE0GIx8JnhaRRqX5xLSVI3lxifWrna0QTPuxfTamKIDFPkI5tu9ef6EcxF3i5S0_tY9NFPmPv-C-cPKMpsmCHw4t0HDjrM8IOIIk9GkfrCZUPTi5sbrmCulr03S-9i3wc_WF4jUczt5FcDhzqlIM-iGMJlgH9W8IlRRif27estpFILSF-VtYRYtlsM52CKKlVAUbWjJAkNrWteCcClTexEsqgy6QWV9c94vsahWxknA5UqE-DbJmfE0RFa9aHH1QX0A47QwzVfLQ554F6ZVfc5Vf_uVKhEWUROipVWE</div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X PUT &#39;https://api-dev-eproc.gokomodo.co/v1/api/purchase-orders/approve&#39; -H &#39;Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIyMzAwIiwiYXV0aG9yaXNlZCI6dHJ1ZSwiZXhwIjoxOTg3MDM3NDM3LCJpYXQiOjE2NzE2Nzc0MzcsImlzcyI6Imdva29tb2RvLmNvIiwicnRva2VuIjoiRUFCcHk3UUtESlRTS0xXZU9OdkYyTnBxWUpyUmFmanlNbU1yOEh0V3VkcnZkMWRwY0pVIiwic3ViIjoiZWUxZjM0MGUyNTcwMTFlY2E4Nzk4MzQ1ZmZjYWRiZGYiLCJ0eXBlIjowfQ.w38b7KBLvqFqeq5sfJqEwjt5zIPrzDeuxW3CoRNMdvrmEQBJ1PpyHQFZzF38Vp5HHYiuPOvjESrHu80ACeORdJbHyugM_uqy9KdtGXn4F6wM8_4Bs_1cS_IqYy-9A-ZnBMOAmyzLiay9P5LmQN9RZT6PQ7k9Jd28iy1M_01Xvq7j-kugWx2VaXkygpZ9oeYeas4tRLXUIj27HpBnx4JBl73MW6sHGMlClVuztvUjbnmiAnURTg1dPHHLsWKAhBh-vZrqt3eSwY_HXVxn1D38kZhr6vsfQ-2HAPcMhyToltm4Y4BiLWNsPs-2yihBCHRJjS6ClyZ29mcVYUA7JqtbPswPtj8fRbpnxqQtgEf5NPPQmrYflh2bA75CSrh5wzZauBlrFE0GIx8JnhaRRqX5xLSVI3lxifWrna0QTPuxfTamKIDFPkI5tu9ef6EcxF3i5S0_tY9NFPmPv-C-cPKMpsmCHw4t0HDjrM8IOIIk9GkfrCZUPTi5sbrmCulr03S-9i3wc_WF4jUczt5FcDhzqlIM-iGMJlgH9W8IlRRif27estpFILSF-VtYRYtlsM52CKKlVAUbWjJAkNrWteCcClTexEsqgy6QWV9c94vsahWxknA5UqE-DbJmfE0RFa9aHH1QX0A47QwzVfLQ554F6ZVfc5Vf_uVKhEWUROipVWE&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;user&quot;: {
+        &quot;id&quot;: 2994,
+        &quot;email&quot;: &quot;day6corp@day6.co&quot;
+    },
+    &quot;po_no&quot;: &quot;PO/RFQ/2022/12/22/22/3279&quot;
+}&#39;
+</div>

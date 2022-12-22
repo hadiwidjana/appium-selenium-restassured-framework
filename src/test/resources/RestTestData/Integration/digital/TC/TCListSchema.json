@@ -1,0 +1,1015 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "pagination": {
+          "type": "object",
+          "properties": {
+            "pages": {
+              "type": "integer"
+            },
+            "per_page": {
+              "type": "integer"
+            },
+            "page_count": {
+              "type": "integer"
+            },
+            "total_count": {
+              "type": "integer"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "first": {
+                  "type": "string"
+                },
+                "previous": {
+                  "type": "string"
+                },
+                "current": {
+                  "type": "string"
+                },
+                "next": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "first",
+                "previous",
+                "current",
+                "next"
+              ]
+            }
+          },
+          "required": [
+            "pages",
+            "per_page",
+            "page_count",
+            "total_count",
+            "links"
+          ]
+        },
+        "trade_confirmations": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "tc_type": {
+                  "type": "integer"
+                },
+                "tc_id": {
+                  "type": "string"
+                },
+                "tc_no": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "pr_ids": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "rfq": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "no": {
+                      "type": "string"
+                    },
+                    "subject": {
+                      "type": "string"
+                    },
+                    "creator": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "no",
+                    "subject",
+                    "creator"
+                  ]
+                },
+                "vendor": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "erp_id": {
+                      "type": "string"
+                    },
+                    "entity_type": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "npwp": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": "object",
+                      "properties": {
+                        "erp_id": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "object",
+                          "properties": {
+                            "entity_type": {
+                              "type": "string"
+                            },
+                            "erp_id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "entity_type",
+                            "erp_id",
+                            "name"
+                          ]
+                        },
+                        "label": {
+                          "type": "string"
+                        },
+                        "category": {
+                          "type": "string"
+                        },
+                        "address": {
+                          "type": "string"
+                        },
+                        "postcode": {
+                          "type": "string"
+                        },
+                        "longitude": {
+                          "type": "integer"
+                        },
+                        "latitude": {
+                          "type": "integer"
+                        },
+                        "subdistrict": {
+                          "type": "string"
+                        },
+                        "city": {
+                          "type": "string"
+                        },
+                        "province": {
+                          "type": "string"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "location_type": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "erp_id",
+                        "company",
+                        "label",
+                        "category",
+                        "address",
+                        "postcode",
+                        "longitude",
+                        "latitude",
+                        "subdistrict",
+                        "city",
+                        "province",
+                        "note",
+                        "location_type"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "erp_id",
+                    "entity_type",
+                    "name",
+                    "npwp",
+                    "email",
+                    "location"
+                  ]
+                },
+                "main_category": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name"
+                      ]
+                    }
+                  ]
+                },
+                "payment_term": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "erp_id": {
+                      "type": "string"
+                    },
+                    "term": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "erp_id",
+                    "term"
+                  ]
+                },
+                "delivery_method": {
+                  "type": "integer"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "creator": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "sent_at": {
+                  "type": "string"
+                },
+                "sender": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "name"
+                  ]
+                },
+                "deliveries": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "items": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "tc_item_id": {
+                                  "type": "integer"
+                                },
+                                "pr_id": {
+                                  "type": "string"
+                                },
+                                "pr_item_id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "material_number": {
+                                  "type": "string"
+                                },
+                                "uom": {
+                                  "type": "string"
+                                },
+                                "requested_brand": {
+                                  "type": "string"
+                                },
+                                "requested_quantity": {
+                                  "type": "integer"
+                                },
+                                "requested_note": {
+                                  "type": "string"
+                                },
+                                "brand": {
+                                  "type": "string"
+                                },
+                                "quantity": {
+                                  "type": "integer"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "unit_cost": {
+                                  "type": "integer"
+                                },
+                                "delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "location": {
+                                  "type": "object",
+                                  "properties": {
+                                    "erp_id": {
+                                      "type": "string"
+                                    },
+                                    "company": {
+                                      "type": "object",
+                                      "properties": {
+                                        "entity_type": {
+                                          "type": "string"
+                                        },
+                                        "erp_id": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "entity_type",
+                                        "erp_id",
+                                        "name"
+                                      ]
+                                    },
+                                    "label": {
+                                      "type": "string"
+                                    },
+                                    "category": {
+                                      "type": "string"
+                                    },
+                                    "address": {
+                                      "type": "string"
+                                    },
+                                    "postcode": {
+                                      "type": "string"
+                                    },
+                                    "longitude": {
+                                      "type": "integer"
+                                    },
+                                    "latitude": {
+                                      "type": "integer"
+                                    },
+                                    "subdistrict": {
+                                      "type": "string"
+                                    },
+                                    "city": {
+                                      "type": "string"
+                                    },
+                                    "province": {
+                                      "type": "string"
+                                    },
+                                    "note": {
+                                      "type": "string"
+                                    },
+                                    "location_type": {
+                                      "type": "integer"
+                                    }
+                                  },
+                                  "required": [
+                                    "erp_id",
+                                    "company",
+                                    "label",
+                                    "category",
+                                    "address",
+                                    "postcode",
+                                    "longitude",
+                                    "latitude",
+                                    "subdistrict",
+                                    "city",
+                                    "province",
+                                    "note",
+                                    "location_type"
+                                  ]
+                                },
+                                "discount_type": {
+                                  "type": "integer"
+                                },
+                                "discount_value": {
+                                  "type": "integer"
+                                },
+                                "discount_total": {
+                                  "type": "integer"
+                                },
+                                "total": {
+                                  "type": "integer"
+                                },
+                                "total_delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "unit_cost_after_discount": {
+                                  "type": "integer"
+                                },
+                                "alternates": {
+                                  "type": "null"
+                                },
+                                "is_alternate": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "tc_item_id",
+                                "pr_id",
+                                "pr_item_id",
+                                "name",
+                                "material_number",
+                                "uom",
+                                "requested_brand",
+                                "requested_quantity",
+                                "requested_note",
+                                "brand",
+                                "quantity",
+                                "note",
+                                "unit_cost",
+                                "delivery_cost",
+                                "location",
+                                "discount_type",
+                                "discount_value",
+                                "discount_total",
+                                "total",
+                                "total_delivery_cost",
+                                "unit_cost_after_discount",
+                                "alternates",
+                                "is_alternate"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "tc_item_id": {
+                                  "type": "integer"
+                                },
+                                "pr_id": {
+                                  "type": "string"
+                                },
+                                "pr_item_id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "material_number": {
+                                  "type": "string"
+                                },
+                                "uom": {
+                                  "type": "string"
+                                },
+                                "requested_brand": {
+                                  "type": "string"
+                                },
+                                "requested_quantity": {
+                                  "type": "integer"
+                                },
+                                "requested_note": {
+                                  "type": "string"
+                                },
+                                "brand": {
+                                  "type": "string"
+                                },
+                                "quantity": {
+                                  "type": "integer"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "unit_cost": {
+                                  "type": "integer"
+                                },
+                                "delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "location": {
+                                  "type": "object",
+                                  "properties": {
+                                    "erp_id": {
+                                      "type": "string"
+                                    },
+                                    "company": {
+                                      "type": "object",
+                                      "properties": {
+                                        "entity_type": {
+                                          "type": "string"
+                                        },
+                                        "erp_id": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "entity_type",
+                                        "erp_id",
+                                        "name"
+                                      ]
+                                    },
+                                    "label": {
+                                      "type": "string"
+                                    },
+                                    "category": {
+                                      "type": "string"
+                                    },
+                                    "address": {
+                                      "type": "string"
+                                    },
+                                    "postcode": {
+                                      "type": "string"
+                                    },
+                                    "longitude": {
+                                      "type": "integer"
+                                    },
+                                    "latitude": {
+                                      "type": "integer"
+                                    },
+                                    "subdistrict": {
+                                      "type": "string"
+                                    },
+                                    "city": {
+                                      "type": "string"
+                                    },
+                                    "province": {
+                                      "type": "string"
+                                    },
+                                    "note": {
+                                      "type": "string"
+                                    },
+                                    "location_type": {
+                                      "type": "integer"
+                                    }
+                                  },
+                                  "required": [
+                                    "erp_id",
+                                    "company",
+                                    "label",
+                                    "category",
+                                    "address",
+                                    "postcode",
+                                    "longitude",
+                                    "latitude",
+                                    "subdistrict",
+                                    "city",
+                                    "province",
+                                    "note",
+                                    "location_type"
+                                  ]
+                                },
+                                "discount_type": {
+                                  "type": "integer"
+                                },
+                                "discount_value": {
+                                  "type": "integer"
+                                },
+                                "discount_total": {
+                                  "type": "integer"
+                                },
+                                "total": {
+                                  "type": "integer"
+                                },
+                                "total_delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "unit_cost_after_discount": {
+                                  "type": "integer"
+                                },
+                                "alternates": {
+                                  "type": "null"
+                                },
+                                "is_alternate": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "tc_item_id",
+                                "pr_id",
+                                "pr_item_id",
+                                "name",
+                                "material_number",
+                                "uom",
+                                "requested_brand",
+                                "requested_quantity",
+                                "requested_note",
+                                "brand",
+                                "quantity",
+                                "note",
+                                "unit_cost",
+                                "delivery_cost",
+                                "location",
+                                "discount_type",
+                                "discount_value",
+                                "discount_total",
+                                "total",
+                                "total_delivery_cost",
+                                "unit_cost_after_discount",
+                                "alternates",
+                                "is_alternate"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "tc_item_id": {
+                                  "type": "integer"
+                                },
+                                "pr_id": {
+                                  "type": "string"
+                                },
+                                "pr_item_id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "material_number": {
+                                  "type": "string"
+                                },
+                                "uom": {
+                                  "type": "string"
+                                },
+                                "requested_brand": {
+                                  "type": "string"
+                                },
+                                "requested_quantity": {
+                                  "type": "integer"
+                                },
+                                "requested_note": {
+                                  "type": "string"
+                                },
+                                "brand": {
+                                  "type": "string"
+                                },
+                                "quantity": {
+                                  "type": "integer"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "unit_cost": {
+                                  "type": "integer"
+                                },
+                                "delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "location": {
+                                  "type": "object",
+                                  "properties": {
+                                    "erp_id": {
+                                      "type": "string"
+                                    },
+                                    "company": {
+                                      "type": "object",
+                                      "properties": {
+                                        "entity_type": {
+                                          "type": "string"
+                                        },
+                                        "erp_id": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "entity_type",
+                                        "erp_id",
+                                        "name"
+                                      ]
+                                    },
+                                    "label": {
+                                      "type": "string"
+                                    },
+                                    "category": {
+                                      "type": "string"
+                                    },
+                                    "address": {
+                                      "type": "string"
+                                    },
+                                    "postcode": {
+                                      "type": "string"
+                                    },
+                                    "longitude": {
+                                      "type": "integer"
+                                    },
+                                    "latitude": {
+                                      "type": "integer"
+                                    },
+                                    "subdistrict": {
+                                      "type": "string"
+                                    },
+                                    "city": {
+                                      "type": "string"
+                                    },
+                                    "province": {
+                                      "type": "string"
+                                    },
+                                    "note": {
+                                      "type": "string"
+                                    },
+                                    "location_type": {
+                                      "type": "integer"
+                                    }
+                                  },
+                                  "required": [
+                                    "erp_id",
+                                    "company",
+                                    "label",
+                                    "category",
+                                    "address",
+                                    "postcode",
+                                    "longitude",
+                                    "latitude",
+                                    "subdistrict",
+                                    "city",
+                                    "province",
+                                    "note",
+                                    "location_type"
+                                  ]
+                                },
+                                "discount_type": {
+                                  "type": "integer"
+                                },
+                                "discount_value": {
+                                  "type": "integer"
+                                },
+                                "discount_total": {
+                                  "type": "integer"
+                                },
+                                "total": {
+                                  "type": "integer"
+                                },
+                                "total_delivery_cost": {
+                                  "type": "integer"
+                                },
+                                "unit_cost_after_discount": {
+                                  "type": "integer"
+                                },
+                                "alternates": {
+                                  "type": "null"
+                                },
+                                "is_alternate": {
+                                  "type": "boolean"
+                                }
+                              },
+                              "required": [
+                                "tc_item_id",
+                                "pr_id",
+                                "pr_item_id",
+                                "name",
+                                "material_number",
+                                "uom",
+                                "requested_brand",
+                                "requested_quantity",
+                                "requested_note",
+                                "brand",
+                                "quantity",
+                                "note",
+                                "unit_cost",
+                                "delivery_cost",
+                                "location",
+                                "discount_type",
+                                "discount_value",
+                                "discount_total",
+                                "total",
+                                "total_delivery_cost",
+                                "unit_cost_after_discount",
+                                "alternates",
+                                "is_alternate"
+                              ]
+                            }
+                          ]
+                        },
+                        "location": {
+                          "type": "object",
+                          "properties": {
+                            "erp_id": {
+                              "type": "string"
+                            },
+                            "company": {
+                              "type": "object",
+                              "properties": {
+                                "entity_type": {
+                                  "type": "string"
+                                },
+                                "erp_id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "entity_type",
+                                "erp_id",
+                                "name"
+                              ]
+                            },
+                            "label": {
+                              "type": "string"
+                            },
+                            "category": {
+                              "type": "string"
+                            },
+                            "address": {
+                              "type": "string"
+                            },
+                            "postcode": {
+                              "type": "string"
+                            },
+                            "longitude": {
+                              "type": "integer"
+                            },
+                            "latitude": {
+                              "type": "integer"
+                            },
+                            "subdistrict": {
+                              "type": "string"
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "province": {
+                              "type": "string"
+                            },
+                            "note": {
+                              "type": "string"
+                            },
+                            "location_type": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "erp_id",
+                            "company",
+                            "label",
+                            "category",
+                            "address",
+                            "postcode",
+                            "longitude",
+                            "latitude",
+                            "subdistrict",
+                            "city",
+                            "province",
+                            "note",
+                            "location_type"
+                          ]
+                        },
+                        "franco_area": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "category": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "category"
+                          ]
+                        },
+                        "total": {
+                          "type": "integer"
+                        },
+                        "total_delivery_cost": {
+                          "type": "integer"
+                        },
+                        "discount_type": {
+                          "type": "integer"
+                        },
+                        "discount_value": {
+                          "type": "integer"
+                        },
+                        "discount_amount": {
+                          "type": "integer"
+                        },
+                        "discount_total": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "items",
+                        "location",
+                        "franco_area",
+                        "total",
+                        "total_delivery_cost",
+                        "discount_type",
+                        "discount_value",
+                        "discount_amount",
+                        "discount_total"
+                      ]
+                    }
+                  ]
+                },
+                "include_tax": {
+                  "type": "boolean"
+                },
+                "tax_total": {
+                  "type": "integer"
+                },
+                "tax_rate": {
+                  "type": "integer"
+                },
+                "discount_type": {
+                  "type": "integer"
+                },
+                "discount_value": {
+                  "type": "integer"
+                },
+                "discount_total": {
+                  "type": "integer"
+                },
+                "total": {
+                  "type": "integer"
+                },
+                "approved_by": {
+                  "type": "null"
+                },
+                "status": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "tc_type",
+                "tc_id",
+                "tc_no",
+                "priority",
+                "pr_ids",
+                "rfq",
+                "vendor",
+                "main_category",
+                "payment_term",
+                "delivery_method",
+                "created_at",
+                "creator",
+                "sent_at",
+                "sender",
+                "deliveries",
+                "include_tax",
+                "tax_total",
+                "tax_rate",
+                "discount_type",
+                "discount_value",
+                "discount_total",
+                "total",
+                "approved_by",
+                "status"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "pagination",
+        "trade_confirmations"
+      ]
+    }
+  },
+  "required": [
+    "status",
+    "message",
+    "data"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "id": 2348,
+            "email": "rufaidahcaniago@gmail.com",
+            "first_name": "Jorade",
+            "last_name": "Staff ",
+            "title": ""
+        },
+        {
+            "id": 2415,
+            "email": "komodotester9000@gmail.com",
+            "first_name": "Komodo Tester",
+            "last_name": "",
+            "title": "Auditor"
+        },
+        {
+            "id": 4148,
+            "email": "Komodobuyer+3@gmail.com",
+            "first_name": "Gokomodo",
+            "last_name": "TESTT",
+            "title": "STAFF"
+        },
+        {
+            "id": 3936,
+            "email": "admin.plog84@3bumitama.com",
+            "first_name": "Daniel",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 3928,
+            "email": "admin.plog10@1bumitama.com",
+            "first_name": "Avensius",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 2187,
+            "email": "komododemonstration@gmail.com",
+            "first_name": "Demo",
+            "last_name": "Man",
+            "title": "Manager"
+        },
+        {
+            "id": 4132,
+            "email": "rufaidah@gokomodo.com",
+            "first_name": "Komodo ",
+            "last_name": "Tester",
+            "title": "QA"
+        },
+        {
+            "id": 4134,
+            "email": "filiadi@gokomodo.com",
+            "first_name": "Fil",
+            "last_name": "Test",
+            "title": "test"
+        },
+        {
+            "id": 3929,
+            "email": "admin.plog4@1bumitama.com",
+            "first_name": "Ernies",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 4248,
+            "email": "rufaidahdokumen@gmail.com",
+            "first_name": "Komodo ",
+            "last_name": "Demo",
+            "title": "stff"
+        },
+        {
+            "id": 3931,
+            "email": "admin.plog2@1bumitama.com",
+            "first_name": "JUWIYAN",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 4136,
+            "email": "filiadi+2@gokomodo.com",
+            "first_name": "Fil",
+            "last_name": "2",
+            "title": "staff"
+        },
+        {
+            "id": 2020,
+            "email": "welaf35004@tashjw.com",
+            "first_name": "Steff",
+            "last_name": "demo",
+            "title": "Staff of temporrau"
+        },
+        {
+            "id": 2219,
+            "email": "komodobuyer+head02@gmail.com",
+            "first_name": "Head of Procurement 02",
+            "last_name": "",
+            "title": ""
+        },
+        {
+            "id": 3932,
+            "email": "admin.plog7a@1bumitama.com",
+            "first_name": "NADHIROH",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 3933,
+            "email": "admin.plog5@1bumitama.com",
+            "first_name": "SITUNUR",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 4176,
+            "email": "Komodobuyer+4@gmail.com",
+            "first_name": "Komodo ",
+            "last_name": "Demo 4",
+            "title": "Staff"
+        },
+        {
+            "id": 3934,
+            "email": "admin.plog6@1bumitama.com",
+            "first_name": "TRISNA",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 3935,
+            "email": "admin.plog8a@1bumitama.com",
+            "first_name": "WINARNO",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 4177,
+            "email": "filiadi+1@gokomodo.com",
+            "first_name": "Gokomodo",
+            "last_name": "Staff",
+            "title": "staff"
+        },
+        {
+            "id": 3292,
+            "email": "komodobuyer+1@gmail.com",
+            "first_name": "Kestrel",
+            "last_name": "Estral",
+            "title": "plus 1"
+        },
+        {
+            "id": 3377,
+            "email": "komodobuyer+m@gmail.com",
+            "first_name": "Manan",
+            "last_name": "Gerry",
+            "title": "Manager of Dept Test"
+        },
+        {
+            "id": 2188,
+            "email": "komododemonstration+demo@gmail.com",
+            "first_name": "Demonstration",
+            "last_name": "Women",
+            "title": "Manager"
+        },
+        {
+            "id": 3930,
+            "email": "admin.plog1@1bumitama.com",
+            "first_name": "Ita",
+            "last_name": "BGA",
+            "title": ""
+        },
+        {
+            "id": 4064,
+            "email": "(DEACTIVATED)arialfarazi@gmail.com",
+            "first_name": "user",
+            "last_name": "testing",
+            "title": "Staff"
+        },
+        {
+            "id": 880,
+            "email": "komodobuyer@gmail.com",
+            "first_name": "Komodo",
+            "last_name": "Demo",
+            "title": "Founder"
+        }
+    ]
+}

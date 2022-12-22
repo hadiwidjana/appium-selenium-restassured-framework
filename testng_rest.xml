@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing for Rest API" thread-count="1" parallel="tests"
+       data-provider-thread-count="1" group-by-instances="true">
+    <!--    Select bifrost, erp, or prod environment    -->
+    <parameter name="environment"  value="digital"/>
+    <test name="Integration BE End to End Test">
+        <classes>
+            <class name="Gokomodo.BE.Integration.Rest.tests.IntegrationE2ETest"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

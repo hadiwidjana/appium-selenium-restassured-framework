@@ -1,0 +1,1 @@
+{"uuid":"c87a8981-9b2b-49c6-8124-93f54c336721","name":"Automation Testing for Rest API","children":["1d09695f-7ca8-44e9-97c1-13381a1cc80e"],"befores":[],"afters":[{"name":"afterSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671677514840,"stop":1671677514850}],"links":[],"start":1671677435165,"stop":1671677514851}

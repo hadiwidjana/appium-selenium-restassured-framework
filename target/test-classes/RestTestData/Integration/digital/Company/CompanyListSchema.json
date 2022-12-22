@@ -1,0 +1,290 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "info": {
+          "type": "object",
+          "properties": {
+            "found": {
+              "type": "integer"
+            },
+            "not_found": {
+              "type": "integer"
+            },
+            "found_list": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "not_found_list": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "found",
+            "not_found",
+            "found_list",
+            "not_found_list"
+          ]
+        },
+        "vendors": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "entity_type": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "npwp": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "phone_country_code": {
+                  "type": "string"
+                },
+                "phone_number": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "contact": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "first_name": {
+                      "type": "string"
+                    },
+                    "last_name": {
+                      "type": "string"
+                    },
+                    "phone_country_code": {
+                      "type": "string"
+                    },
+                    "phone_number": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "first_name",
+                    "last_name",
+                    "phone_country_code",
+                    "phone_number"
+                  ]
+                },
+                "location": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "postcode": {
+                      "type": "string"
+                    },
+                    "longitude": {
+                      "type": "integer"
+                    },
+                    "latitude": {
+                      "type": "integer"
+                    },
+                    "subdistrict": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "province": {
+                      "type": "string"
+                    },
+                    "country": {
+                      "type": "string"
+                    },
+                    "note": {
+                      "type": "string"
+                    },
+                    "location_type": {
+                      "type": "integer"
+                    },
+                    "location_type_name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "category",
+                    "address",
+                    "postcode",
+                    "longitude",
+                    "latitude",
+                    "subdistrict",
+                    "city",
+                    "province",
+                    "country",
+                    "note",
+                    "location_type",
+                    "location_type_name"
+                  ]
+                },
+                "served_areas": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "first_name": {
+                      "type": "string"
+                    },
+                    "last_name": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "notes": {
+                      "type": "string"
+                    },
+                    "phone_country_code": {
+                      "type": "string"
+                    },
+                    "phone_number": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "email",
+                    "first_name",
+                    "last_name",
+                    "title",
+                    "notes",
+                    "phone_country_code",
+                    "phone_number"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "entity_type",
+                "name",
+                "npwp",
+                "email",
+                "phone_country_code",
+                "phone_number",
+                "description",
+                "website",
+                "contact",
+                "location",
+                "served_areas",
+                "user"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "info",
+        "vendors"
+      ]
+    }
+  },
+  "required": [
+    "status",
+    "message",
+    "data"
+  ]
+}

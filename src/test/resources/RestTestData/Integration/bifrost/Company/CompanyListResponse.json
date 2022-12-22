@@ -1,0 +1,79 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "info": {
+            "found": 1,
+            "not_found": 0,
+            "found_list": [
+                2333
+            ],
+            "not_found_list": null
+        },
+        "vendors": [
+            {
+                "id": 2333,
+                "entity_type": "PT",
+                "name": "SAka Uniti Seller",
+                "npwp": "",
+                "email": "sakaunitiseller@mail.com",
+                "phone_country_code": "62",
+                "phone_number": "987645",
+                "description": "test",
+                "website": "",
+                "contact": {
+                    "email": "sakaunitiseller@mail.com",
+                    "first_name": "Saka Uniti ",
+                    "last_name": "Seller",
+                    "phone_country_code": "62",
+                    "phone_number": ""
+                },
+                "location": {
+                    "label": "Saka Uniti Head Office",
+                    "category": "address",
+                    "address": "Kebayoran Baru ",
+                    "postcode": "334546",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "subdistrict": "Kebayoran Baru",
+                    "city": "Kota Jakarta Selatan",
+                    "province": "DKI Jakarta",
+                    "country": "Indonesia",
+                    "note": "test",
+                    "location_type": 1,
+                    "location_type_name": ""
+                },
+                "served_areas": [
+                    "Banten",
+                    "DI Yogyakarta",
+                    "DKI Jakarta",
+                    "Jawa Barat",
+                    "Jawa Tengah",
+                    "Jawa Timur",
+                    "Kalimantan Barat",
+                    "Kalimantan Selatan",
+                    "Kalimantan Tengah",
+                    "Kalimantan Timur",
+                    "Kalimantan Utara",
+                    "Maluku",
+                    "Maluku Utara",
+                    "Bali",
+                    "Nusa Tenggara Barat (NTB)",
+                    "Nusa Tenggara Timur (NTT)",
+                    "Papua",
+                    "Papua Barat"
+                ],
+                "user": {
+                    "id": 0,
+                    "email": "",
+                    "first_name": "",
+                    "last_name": "",
+                    "title": "",
+                    "notes": "",
+                    "phone_country_code": "",
+                    "phone_number": ""
+                }
+            }
+        ]
+    }
+}

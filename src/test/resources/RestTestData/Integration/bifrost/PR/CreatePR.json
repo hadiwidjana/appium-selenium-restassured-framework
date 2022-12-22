@@ -1,0 +1,53 @@
+{
+  "pr_no": "PRM2022/DEMO-INTG/22/12/22/109",
+  "note": "PR Automation",
+  "creator": {
+    "id": 2987,
+    "email": "sakaunittest@mail.com"
+  },
+  "items": [
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "O1P9322221",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "ITEM-1",
+      "name": "Pupuk Urea",
+      "brand": "Tubrus",
+      "location_id": "SUHO"
+    },
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "JF109F32N",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "ITEM-2",
+      "name": "Pestisida",
+      "brand": "Srubut",
+      "location_id": "SUHO"
+    },
+    {
+      "note": "",
+      "uom": "unit",
+      "quantity": 10,
+      "material_number": "JNGF10352",
+      "purchaser": {
+        "id": 2987,
+        "email": "sakaunittest@mail.com"
+      },
+      "pr_item_id": "ITEM-3",
+      "name": "Pupuk Kompos",
+      "brand": "Trusub",
+      "location_id": "SUHO"
+    }
+  ],
+  "location_id": "SUHO"
+}

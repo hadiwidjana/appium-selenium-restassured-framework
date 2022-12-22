@@ -1,0 +1,70 @@
+{
+  "note": "TEST PR to RFQ 1",
+  "creator": {
+    "id": 2987,
+    "email": "sakaunittest@mail.com"
+  },
+  "expected_delivery_end": "2023-01-21",
+  "expected_delivery_start": "2023-01-05",
+  "department_id": 35,
+  "subject": "Automation Test",
+  "due_date": "2022-12-29 12:00",
+  "priority": 1,
+  "selected_category_id": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "main_category_id": 30,
+  "deliveries": [
+    {
+      "location": {},
+      "items": [
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "JNGF10352",
+          "pr_id": "PRM2022/DEMO-INTG/22/12/22/109",
+          "pr_item_id": "ITEM-3",
+          "name": "Pupuk Kompos",
+          "brand": "Trusub",
+          "location_id": "SUHO",
+          "budget": 2000000,
+          "last_price": 1000000
+        },
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "JF109F32N",
+          "pr_id": "PRM2022/DEMO-INTG/22/12/22/109",
+          "pr_item_id": "ITEM-2",
+          "name": "Pestisida",
+          "brand": "Srubut",
+          "location_id": "SUHO",
+          "budget": 2000000,
+          "last_price": 1000000
+        },
+        {
+          "note": "",
+          "uom": "unit",
+          "quantity": 10,
+          "material_number": "O1P9322221",
+          "pr_id": "PRM2022/DEMO-INTG/22/12/22/109",
+          "pr_item_id": "ITEM-1",
+          "name": "Pupuk Urea",
+          "brand": "Tubrus",
+          "location_id": "SUHO",
+          "budget": 2000000,
+          "last_price": 1000000
+        }
+      ],
+      "location_id": "SUHO"
+    }
+  ],
+  "payment_term_id": 130,
+  "delivery_mode": 0
+}

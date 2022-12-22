@@ -1,0 +1,47 @@
+{
+  "note": "create invoice test",
+  "deadline_date": "2023-01-05 12:00",
+  "total": 10110,
+  "vendor": {
+    "id": 2333,
+    "NPWP": ""
+  },
+  "invoice_no": "INV/22/12/22/VENDOR/7568",
+  "payment_terms": [
+    {
+      "term": "30 Hari setelah Invoice diterima, dilengkapi dengan Berita Acara Serah Terima Barang",
+      "id": 130
+    }
+  ],
+  "created_by": {
+    "id": 2987,
+    "email": "sakaunittest@mail.com"
+  },
+  "items": [
+    {
+      "item_internal_id": "ITEM-3",
+      "quantity": 10,
+      "notes": "create invoice test",
+      "purchase_orders": [
+        "PO/RFQ/2022/12/22/22/6614"
+      ],
+      "freight": 1000,
+      "discount": 1000,
+      "description": "automation",
+      "tax": 10,
+      "down_payment": 130,
+      "uom": "unit",
+      "total": 10110,
+      "material_number": "JNGF10352",
+      "name": "Pupuk Kompos",
+      "sub_total": 10000,
+      "unit_cost": 1000,
+      "goods_receiveds": [
+        "GR/22/12/2022/1994"
+      ],
+      "misc": 100
+    }
+  ],
+  "seller_invoice_no": "INV/22/12/22/FROMSELLER/7568",
+  "seller_invoice_date": "2022-12-22 12:00"
+}

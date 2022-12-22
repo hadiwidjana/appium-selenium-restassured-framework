@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="End to End QA Gokomodo" data-provider-thread-count="1" group-by-instances="true">
+    <listeners>
+        <listener class-name="Gokomodo.GlobalMethod.AllureReport.AllureListener"></listener>
+        <listener class-name="com.automation.remarks.testng.VideoListener"></listener>
+    </listeners>
+
+        <suite-files>
+            <suite-file path="testng_web.xml"/>
+            <suite-file path="testng_android.xml"/>
+            <suite-file path="testng_ios.xml"/>
+            <suite-file path="testng_rest.xml"/>
+        </suite-files>
+
+</suite> <!-- Suite -->
