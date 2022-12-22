@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="End to End Mobile Web QA Gokomodo" thread-count="1" parallel="tests"
+<suite name="End to End Mobile Web QA frmwrk" thread-count="1" parallel="tests"
        data-provider-thread-count="1" group-by-instances="true">
 
     <test name="iOS Web">
         <parameter name="platformName" value="iOS_web"/>
         <classes>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Admin.tests.MobileWebLoginAdmin"/>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Buyer.tests.MobileWebLoginBuyer"/>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Seller.tests.MobileWebLoginSeller"/>
+<!--            <class name="frmwrk.fe.mobileweb.tests.MobileWebLoginAdmin"/>-->
         </classes>
     </test>
 
     <test name="iOS App">
         <parameter name="platformName" value="iOS_app"/>
         <classes>
-            <class name="Gokomodo.FE.Mobile.LoginManager.Buyer.tests.MobileLoginBuyer"/>
-            <class name="Gokomodo.FE.Mobile.LoginManager.Seller.tests.MobileLoginSeller"/>
+            <class name="frmwrk.fe.mobile.tests.MobileLoginBuyer"/>
         </classes>
     </test>
 

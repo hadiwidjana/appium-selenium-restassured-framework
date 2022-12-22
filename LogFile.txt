@@ -22689,3 +22689,6 @@
 22 Dec 2022 10:18:08  INFO logger - Status code is: 200
 22 Dec 2022 10:18:08  INFO logger - Response body schema is correct
 22 Dec 2022 10:18:08  INFO logger - Content type is: application/json; charset=UTF-8
+22 Dec 2022 17:55:05  INFO logger - Proxy element for: DefaultElementLocator 'by id or name "txtLogin"'
+22 Dec 2022 18:00:56  INFO logger - Proxy element for: DefaultElementLocator 'by id or name "txtLogin"'
+22 Dec 2022 18:01:47  INFO logger - Located by By.chained({By.xpath: //*[@name='login-input-email']})

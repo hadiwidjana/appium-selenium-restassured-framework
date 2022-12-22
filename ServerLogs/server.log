@@ -1,1 +1,650 @@
-2022-12-15 09:23:56:528 [Appium] Welcome to Appium v2.0.0-beta.46
+2022-12-22 11:01:35:650 [Appium] Welcome to Appium v2.0.0-beta.46
+2022-12-22 11:01:35:651 [Appium] Non-default server args:
+2022-12-22 11:01:35:652 [Appium] { allowInsecure: [ 'chromedriver_autodownload' ],
+2022-12-22 11:01:35:652 [Appium]   basePath: '/wd/hub/',
+2022-12-22 11:01:35:652 [Appium]   sessionOverride: true }
+2022-12-22 11:01:35:652 [Appium] Attempting to load driver xcuitest...
+2022-12-22 11:01:35:653 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver
+2022-12-22 11:01:36:066 [Appium] Attempting to load driver uiautomator2...
+2022-12-22 11:01:36:066 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver
+2022-12-22 11:01:36:428 [Appium] Attempting to load driver safari...
+2022-12-22 11:01:36:428 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-safari-driver
+2022-12-22 11:01:36:515 [Appium] Attempting to load driver gecko...
+2022-12-22 11:01:36:515 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-geckodriver
+2022-12-22 11:01:36:553 [Appium] Attempting to load driver mac2...
+2022-12-22 11:01:36:553 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-mac2-driver
+2022-12-22 11:01:36:611 [Appium] Attempting to load driver espresso...
+2022-12-22 11:01:36:612 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-espresso-driver
+2022-12-22 11:01:37:023 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-12-22 11:01:37:024 [Appium] Available drivers:
+2022-12-22 11:01:37:024 [Appium]   - xcuitest@4.12.1 (automationName 'XCUITest')
+2022-12-22 11:01:37:024 [Appium]   - uiautomator2@2.10.1 (automationName 'UiAutomator2')
+2022-12-22 11:01:37:024 [Appium]   - safari@3.2.4 (automationName 'Safari')
+2022-12-22 11:01:37:024 [Appium]   - gecko@1.1.3 (automationName 'Gecko')
+2022-12-22 11:01:37:024 [Appium]   - mac2@1.4.5 (automationName 'Mac2')
+2022-12-22 11:01:37:024 [Appium]   - espresso@2.13.5 (automationName 'Espresso')
+2022-12-22 11:01:37:024 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2022-12-22 11:01:37:077 [HTTP] --> GET /wd/hub/status
+2022-12-22 11:01:37:077 [HTTP] {}
+2022-12-22 11:01:37:077 [AppiumDriver@3ba0] Calling AppiumDriver.getStatus() with args: []
+2022-12-22 11:01:37:078 [AppiumDriver@3ba0] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.46"}}
+2022-12-22 11:01:37:082 [HTTP] <-- GET /wd/hub/status 200 2 ms - 47
+2022-12-22 11:01:37:082 [HTTP] 
+2022-12-22 11:01:39:295 [HTTP] Request idempotency key: f56a2370-b62e-4716-88c3-90837ed7d8c8
+2022-12-22 11:01:39:309 [HTTP] --> POST /wd/hub/session
+2022-12-22 11:01:39:309 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app","appium:automationName":"XCUITest","appium:bundleId":"com.komodobuyer","appium:deviceName":"iPhone 13","appium:platformVersion":"15.5","appium:udid":"","platformName":"ios"}}}
+2022-12-22 11:01:39:310 [AppiumDriver@3ba0] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app","appium:automationName":"XCUITest","appium:bundleId":"com.komodobuyer","appium:deviceName":"iPhone 13","appium:platformVersion":"15.5","appium:udid":"","platformName":"ios"}}]
+2022-12-22 11:01:39:310 [AppiumDriver@3ba0] Event 'newSessionRequested' logged at 1671706899310 (18:01:39 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:39:312 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+2022-12-22 11:01:39:312 [Appium] The 'xcuitest' driver was installed and matched caps.
+2022-12-22 11:01:39:312 [Appium] Will require it at /Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver
+2022-12-22 11:01:39:312 [Appium] Requiring driver at /Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver
+2022-12-22 11:01:39:312 [AppiumDriver@3ba0] Appium v2.0.0-beta.46 creating new XCUITestDriver (v4.12.1) session
+2022-12-22 11:01:39:312 [AppiumDriver@3ba0] Checking BaseDriver versions for Appium and XCUITestDriver
+2022-12-22 11:01:39:312 [AppiumDriver@3ba0] Appium's BaseDriver version is 8.7.3
+2022-12-22 11:01:39:313 [AppiumDriver@3ba0] XCUITestDriver's BaseDriver version is 8.7.3
+2022-12-22 11:01:39:313 [AppiumDriver@3ba0] There are no active sessions for cleanup
+2022-12-22 11:01:39:313 [AppiumDriver@3ba0] Explicitly enabling use of insecure features:
+2022-12-22 11:01:39:313 [AppiumDriver@3ba0]     chromedriver_autodownload
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69] Creating session with W3C capabilities: {
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]   "alwaysMatch": {
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "platformName": "ios",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:app": "/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:automationName": "XCUITest",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:bundleId": "com.komodobuyer",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:deviceName": "iPhone 13",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:platformVersion": "15.5",
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     "appium:udid": ""
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]   },
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]   "firstMatch": [
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]     {}
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69]   ]
+2022-12-22 11:01:39:314 [XCUITestDriver@cd69] }
+2022-12-22 11:01:39:319 [XCUITestDriver@cd69 (2ab85181)] Session created with session id: 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:39:331 [XCUITest] Current user: 'gk2210m1s'
+2022-12-22 11:01:39:399 [XCUITestDriver@cd69 (2ab85181)] iOS SDK Version set to '16.2'
+2022-12-22 11:01:39:821 [iOSSim] Constructing iOS simulator for Xcode version 14.2 with udid '20A641E8-C529-4DBD-8BB0-2D31DD93CF62'
+2022-12-22 11:01:39:822 [XCUITestDriver@cd69 (2ab85181)] Determining device to run tests on: udid: '20A641E8-C529-4DBD-8BB0-2D31DD93CF62', real device: false
+2022-12-22 11:01:39:823 [XCUITestDriver@cd69 (2ab85181)] Event 'xcodeDetailsRetrieved' logged at 1671706899823 (18:01:39 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:39:824 [BaseDriver] Using local app '/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app'
+2022-12-22 11:01:39:824 [XCUITestDriver@cd69 (2ab85181)] Event 'appConfigured' logged at 1671706899824 (18:01:39 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:39:824 [XCUITest] Checking whether app '/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app' is actually present on file system
+2022-12-22 11:01:39:824 [XCUITest] App is present
+2022-12-22 11:01:39:824 [XCUITestDriver@cd69 (2ab85181)] Event 'resetStarted' logged at 1671706899824 (18:01:39 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:40:098 [simctl] Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+Application termination failed.
+FBSSystemService reported failure without an error, possibly because the app is not currently running.
+2022-12-22 11:01:40:098 [XCUITest] Reset: failed to terminate Simulator application with id "com.komodobuyer"
+2022-12-22 11:01:40:098 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2022-12-22 11:01:40:098 [XCUITestDriver@cd69 (2ab85181)] Event 'resetComplete' logged at 1671706900098 (18:01:40 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:40:098 [XCUITestDriver@cd69 (2ab85181)] Using WDA path: '/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+2022-12-22 11:01:40:098 [XCUITestDriver@cd69 (2ab85181)] Using WDA agent: '/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2022-12-22 11:01:40:223 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '20A641E8-C529-4DBD-8BB0-2D31DD93CF62' using simctl
+2022-12-22 11:01:40:438 [XCUITestDriver@cd69 (2ab85181)] Event 'logCaptureStarted' logged at 1671706900438 (18:01:40 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:40:438 [XCUITestDriver@cd69 (2ab85181)] Setting up simulator
+2022-12-22 11:01:40:438 [XCUITest] No reason to set locale
+2022-12-22 11:01:40:439 [XCUITest] No iOS / app preferences to set
+2022-12-22 11:01:40:439 [XCUITest] Setting did not need to be updated
+2022-12-22 11:01:40:440 [iOSSim] Setting preferences of 20A641E8-C529-4DBD-8BB0-2D31DD93CF62 Simulator to {"ConnectHardwareKeyboard":false}
+2022-12-22 11:01:40:440 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2022-12-22 11:01:40:555 [iOSSim] Updated 20A641E8-C529-4DBD-8BB0-2D31DD93CF62 Simulator preferences at '/Users/gk2210m1s/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"20A641E8-C529-4DBD-8BB0-2D31DD93CF62":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"94984D43-6252-4BE9-A48D-45611AD274F0":{"WindowCenter":"{995, 494}","WindowScale":0.8051282051282052}},"SimulatorWindowRotationAngle":0}}}
+2022-12-22 11:01:40:703 [iOSSim] Got Simulator UI client PID: 465
+2022-12-22 11:01:40:704 [iOSSim] Both Simulator with UDID '20A641E8-C529-4DBD-8BB0-2D31DD93CF62' and the UI client are currently running
+2022-12-22 11:01:40:706 [XCUITestDriver@cd69 (2ab85181)] Event 'simStarted' logged at 1671706900706 (18:01:40 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:40:707 [XCUITest] Verifying application platform
+2022-12-22 11:01:40:710 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2022-12-22 11:01:40:885 [XCUITest] Reset requested. Removing app with id 'com.komodobuyer' from the device
+2022-12-22 11:01:41:099 [XCUITest] Installing '/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app' on Simulator with UUID '20A641E8-C529-4DBD-8BB0-2D31DD93CF62'...
+2022-12-22 11:01:42:619 [XCUITest] The app has been installed successfully.
+2022-12-22 11:01:42:624 [XCUITestDriver@cd69 (2ab85181)] Event 'appInstalled' logged at 1671706902623 (18:01:42 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:42:699 [XCUITestDriver@cd69 (2ab85181)] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2022-12-22 11:01:42:699 [DevCon Factory] Requesting connection for device 20A641E8-C529-4DBD-8BB0-2D31DD93CF62 on local port 8100
+2022-12-22 11:01:42:699 [DevCon Factory] Cached connections count: 0
+2022-12-22 11:01:42:699 [DevCon Factory] Successfully requested the connection for 20A641E8-C529-4DBD-8BB0-2D31DD93CF62:8100
+2022-12-22 11:01:42:700 [XCUITestDriver@cd69 (2ab85181)] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2022-12-22 11:01:42:702 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-12-22 11:01:42:702 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2022-12-22 11:01:42:723 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.0.107"},"ready":true,"build":{"upgradedAt":"1667705744361","time":"Dec 22 2022 17:20:22","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2022-12-22 11:01:42:723 [XCUITestDriver@cd69 (2ab85181)] Upgrade timestamp of the currently bundled WDA: 1667705744361
+2022-12-22 11:01:42:723 [XCUITestDriver@cd69 (2ab85181)] Upgrade timestamp of the WDA on the device: 1667705744361
+2022-12-22 11:01:42:723 [XCUITestDriver@cd69 (2ab85181)] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2022-12-22 11:01:42:723 [XCUITestDriver@cd69 (2ab85181)] Trying to start WebDriverAgent 2 times with 10000ms interval
+2022-12-22 11:01:42:723 [XCUITestDriver@cd69 (2ab85181)] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2022-12-22 11:01:42:724 [XCUITestDriver@cd69 (2ab85181)] Event 'wdaStartAttempted' logged at 1671706902723 (18:01:42 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:42:724 [XCUITestDriver@cd69 (2ab85181)] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2022-12-22 11:01:42:724 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-12-22 11:01:42:724 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2022-12-22 11:01:42:726 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.0.107"},"ready":true,"build":{"upgradedAt":"1667705744361","time":"Dec 22 2022 17:20:22","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2022-12-22 11:01:42:726 [XCUITestDriver@cd69 (2ab85181)] Event 'wdaSessionAttempted' logged at 1671706902726 (18:01:42 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:42:726 [XCUITestDriver@cd69 (2ab85181)] Sending createSession command to WDA
+2022-12-22 11:01:42:727 [XCUITestDriver@cd69 (2ab85181)] Matched '/session' to command name 'createSession'
+2022-12-22 11:01:42:727 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.komodobuyer","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+2022-12-22 11:01:45:501 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9","capabilities":{"device":"iphone","browserName":"Gokomodo Buyer","sdkVersion":"15.5","CFBundleIdentifier":"com.komodobuyer"}},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:45:502 [XCUITestDriver@cd69 (2ab85181)] Determined the downstream protocol as 'W3C'
+2022-12-22 11:01:45:502 [XCUITestDriver@cd69 (2ab85181)] Event 'wdaSessionStarted' logged at 1671706905502 (18:01:45 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:45:502 [XCUITestDriver@cd69 (2ab85181)] Event 'wdaStarted' logged at 1671706905502 (18:01:45 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:45:503 [XCUITestDriver@cd69 (2ab85181)] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2022-12-22 11:01:45:503 [XCUITestDriver@cd69 (2ab85181)] Event 'orientationSet' logged at 1671706905503 (18:01:45 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:45:505 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2022-12-22 11:01:45:505 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2022-12-22 11:01:45:505 [AppiumDriver@3ba0] New XCUITestDriver session created successfully, session 2ab85181-9b68-439d-913b-c95820b47f86 added to master session list
+2022-12-22 11:01:45:506 [AppiumDriver@3ba0] Event 'newSessionStarted' logged at 1671706905506 (18:01:45 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:45:506 [XCUITestDriver@cd69 (2ab85181)] Cached the protocol value 'W3C' for the new session 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:45:506 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","app":"/Users/gk2210m1s/appium-selenium-restassured-framework/src/test/resources/app/Gokomodo Buyer.app","automationName":"XCUITest","bundleId":"com.komodobuyer","deviceName":"iPhone 13","platformVersion":"15.5","udid":"20A641E8-C529-4DBD-8BB0-2D31DD93CF62"}}
+2022-12-22 11:01:45:509 [HTTP] <-- POST /wd/hub/session 200 6199 ms - 554
+2022-12-22 11:01:45:509 [HTTP] 
+2022-12-22 11:01:45:839 [XCUITestDriver@cd69 (2ab85181)] Parsed BUILD_DIR configuration value: '/Users/gk2210m1s/Library/Developer/Xcode/DerivedData/WebDriverAgent-bybazyvklrggtiaeinsugtkiunnk/Build/Products'
+2022-12-22 11:01:45:840 [XCUITestDriver@cd69 (2ab85181)] Got derived data root: '/Users/gk2210m1s/Library/Developer/Xcode/DerivedData/WebDriverAgent-bybazyvklrggtiaeinsugtkiunnk'
+2022-12-22 11:01:47:396 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:47:396 [HTTP] {}
+2022-12-22 11:01:47:401 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:47:401 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:47:412 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:47:413 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 17 ms - 22
+2022-12-22 11:01:47:413 [HTTP] 
+2022-12-22 11:01:47:461 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:47:461 [HTTP] {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:47:462 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-email']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:47:463 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:47:463 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:47:463 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:47:465 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:47:465 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:47:725 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"10000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:47:725 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000","ELEMENT":"10000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:47:726 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 264 ms - 137
+2022-12-22 11:01:47:726 [HTTP] 
+2022-12-22 11:01:47:734 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed
+2022-12-22 11:01:47:734 [HTTP] {}
+2022-12-22 11:01:47:735 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:47:735 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:47:739 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed' to command name 'elementDisplayed'
+2022-12-22 11:01:47:739 [XCUITestDriver@cd69 (2ab85181)] Proxying [GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed] to [GET http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/10000000-0000-0000-9BA8-000000000000/displayed] with no body
+2022-12-22 11:01:47:777 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":true,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:47:777 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:47:778 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed 200 44 ms - 65
+2022-12-22 11:01:47:778 [HTTP] 
+2022-12-22 11:01:47:784 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:47:784 [HTTP] {}
+2022-12-22 11:01:47:785 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:47:785 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:47:785 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:47:785 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:47:785 [HTTP] 
+2022-12-22 11:01:47:792 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:47:792 [HTTP] {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-email']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:47:792 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:48:114 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"10000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:48:114 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000","ELEMENT":"10000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:48:114 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 323 ms - 137
+2022-12-22 11:01:48:114 [HTTP] 
+2022-12-22 11:01:48:119 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/clear
+2022-12-22 11:01:48:119 [HTTP] {"id":"10000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:48:119 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.clear() with args: ["10000000-0000-0000-9BA8-000000000000","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:48:119 [XCUITestDriver@cd69 (2ab85181)] Executing command 'clear'
+2022-12-22 11:01:48:120 [XCUITestDriver@cd69 (2ab85181)] Matched '/element/10000000-0000-0000-9BA8-000000000000/clear' to command name 'clear'
+2022-12-22 11:01:48:120 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element/10000000-0000-0000-9BA8-000000000000/clear] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/10000000-0000-0000-9BA8-000000000000/clear] with no body
+2022-12-22 11:01:48:916 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:48:916 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.clear() result: null
+2022-12-22 11:01:48:916 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/clear 200 797 ms - 14
+2022-12-22 11:01:48:917 [HTTP] 
+2022-12-22 11:01:48:926 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:48:926 [HTTP] {}
+2022-12-22 11:01:48:926 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:48:926 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:48:926 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:48:927 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:48:927 [HTTP] 
+2022-12-22 11:01:48:934 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:48:934 [HTTP] {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:48:934 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-email']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:48:934 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:48:935 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:48:935 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:48:935 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:48:935 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:49:136 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"10000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:49:136 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000","ELEMENT":"10000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:49:137 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 202 ms - 137
+2022-12-22 11:01:49:137 [HTTP] 
+2022-12-22 11:01:49:146 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed
+2022-12-22 11:01:49:146 [HTTP] {}
+2022-12-22 11:01:49:146 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:49:146 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:49:147 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed' to command name 'elementDisplayed'
+2022-12-22 11:01:49:147 [XCUITestDriver@cd69 (2ab85181)] Proxying [GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed] to [GET http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/10000000-0000-0000-9BA8-000000000000/displayed] with no body
+2022-12-22 11:01:49:184 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":true,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:49:184 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:49:184 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/displayed 200 38 ms - 65
+2022-12-22 11:01:49:184 [HTTP] 
+2022-12-22 11:01:49:187 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:49:188 [HTTP] {}
+2022-12-22 11:01:49:188 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:49:188 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:49:188 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:49:188 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:49:188 [HTTP] 
+2022-12-22 11:01:49:194 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:49:194 [HTTP] {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:49:194 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-email']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:49:194 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:49:194 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:49:194 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:49:195 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:49:195 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-email']"}
+2022-12-22 11:01:49:412 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"10000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:49:412 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10000000-0000-0000-9BA8-000000000000","ELEMENT":"10000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:49:413 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 218 ms - 137
+2022-12-22 11:01:49:413 [HTTP] 
+2022-12-22 11:01:49:430 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/value
+2022-12-22 11:01:49:430 [HTTP] {"id":"10000000-0000-0000-9BA8-000000000000","text":"nauseee1@mail.com","value":["n","a","u","s","e","e","e","1","@","m","a","i","l",".","c","o","m"]}
+2022-12-22 11:01:49:431 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.setValue() with args: [["n","a","u","s","e","e","e","1","@","m","a","i","l",".","c","o","m"],"10000000-0000-0000-9BA8-000000000000","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:49:431 [XCUITestDriver@cd69 (2ab85181)] Executing command 'setValue'
+2022-12-22 11:01:49:431 [XCUITestDriver@cd69 (2ab85181)] Matched '/element/10000000-0000-0000-9BA8-000000000000/value' to command name 'setValue'
+2022-12-22 11:01:49:431 [XCUITestDriver@cd69 (2ab85181)] Added 'text' property "nauseee1@mail.com" to 'setValue' request body
+2022-12-22 11:01:49:431 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element/10000000-0000-0000-9BA8-000000000000/value] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/10000000-0000-0000-9BA8-000000000000/value] with body: {"value":["n","a","u","s","e","e","e","1","@","m","a","i","l",".","c","o","m"],"text":"nauseee1@mail.com"}
+2022-12-22 11:01:49:774 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:49:774 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.setValue() result: null
+2022-12-22 11:01:49:775 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/10000000-0000-0000-9BA8-000000000000/value 200 344 ms - 14
+2022-12-22 11:01:49:775 [HTTP] 
+2022-12-22 11:01:49:808 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:49:808 [HTTP] {}
+2022-12-22 11:01:49:809 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:49:809 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:49:809 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:49:809 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:49:809 [HTTP] 
+2022-12-22 11:01:49:818 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:49:818 [HTTP] {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-password']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:49:818 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:50:031 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"77000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:50:031 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000","ELEMENT":"77000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:50:031 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 213 ms - 137
+2022-12-22 11:01:50:031 [HTTP] 
+2022-12-22 11:01:50:037 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed
+2022-12-22 11:01:50:037 [HTTP] {}
+2022-12-22 11:01:50:037 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:50:037 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:50:037 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed' to command name 'elementDisplayed'
+2022-12-22 11:01:50:037 [XCUITestDriver@cd69 (2ab85181)] Proxying [GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed] to [GET http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/77000000-0000-0000-9BA8-000000000000/displayed] with no body
+2022-12-22 11:01:50:075 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":true,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:50:075 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:50:075 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed 200 38 ms - 65
+2022-12-22 11:01:50:075 [HTTP] 
+2022-12-22 11:01:50:079 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:50:079 [HTTP] {}
+2022-12-22 11:01:50:079 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:50:079 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:50:080 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:50:080 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:50:080 [HTTP] 
+2022-12-22 11:01:50:085 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:50:085 [HTTP] {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-password']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:50:086 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:50:316 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"77000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:50:316 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000","ELEMENT":"77000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:50:316 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 231 ms - 137
+2022-12-22 11:01:50:316 [HTTP] 
+2022-12-22 11:01:50:323 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/clear
+2022-12-22 11:01:50:323 [HTTP] {"id":"77000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:50:323 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.clear() with args: ["77000000-0000-0000-9BA8-000000000000","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:50:323 [XCUITestDriver@cd69 (2ab85181)] Executing command 'clear'
+2022-12-22 11:01:50:324 [XCUITestDriver@cd69 (2ab85181)] Matched '/element/77000000-0000-0000-9BA8-000000000000/clear' to command name 'clear'
+2022-12-22 11:01:50:324 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element/77000000-0000-0000-9BA8-000000000000/clear] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/77000000-0000-0000-9BA8-000000000000/clear] with no body
+2022-12-22 11:01:50:885 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:50:886 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.clear() result: null
+2022-12-22 11:01:50:886 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/clear 200 563 ms - 14
+2022-12-22 11:01:50:886 [HTTP] 
+2022-12-22 11:01:50:901 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:50:901 [HTTP] {}
+2022-12-22 11:01:50:902 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:50:902 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:50:902 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:50:902 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:50:902 [HTTP] 
+2022-12-22 11:01:50:910 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:50:910 [HTTP] {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:50:910 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-password']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:50:910 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:50:910 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:50:910 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:50:912 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:50:912 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:51:111 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"77000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:111 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000","ELEMENT":"77000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:51:112 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 202 ms - 137
+2022-12-22 11:01:51:112 [HTTP] 
+2022-12-22 11:01:51:123 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed
+2022-12-22 11:01:51:123 [HTTP] {}
+2022-12-22 11:01:51:123 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:51:123 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:51:127 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed' to command name 'elementDisplayed'
+2022-12-22 11:01:51:127 [XCUITestDriver@cd69 (2ab85181)] Proxying [GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed] to [GET http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/77000000-0000-0000-9BA8-000000000000/displayed] with no body
+2022-12-22 11:01:51:163 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":true,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:163 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:51:163 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/displayed 200 40 ms - 65
+2022-12-22 11:01:51:163 [HTTP] 
+2022-12-22 11:01:51:170 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:51:170 [HTTP] {}
+2022-12-22 11:01:51:170 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:170 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:51:171 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:51:171 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:51:171 [HTTP] 
+2022-12-22 11:01:51:180 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:51:180 [HTTP] {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:51:180 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='login-input-password']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:180 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:51:180 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:51:180 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:51:181 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:51:181 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='login-input-password']"}
+2022-12-22 11:01:51:383 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"77000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:383 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"77000000-0000-0000-9BA8-000000000000","ELEMENT":"77000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:51:383 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 204 ms - 137
+2022-12-22 11:01:51:383 [HTTP] 
+2022-12-22 11:01:51:397 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/value
+2022-12-22 11:01:51:397 [HTTP] {"id":"77000000-0000-0000-9BA8-000000000000","text":"Kodomo10","value":["K","o","d","o","m","o","1","0"]}
+2022-12-22 11:01:51:397 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.setValue() with args: [["K","o","d","o","m","o","1","0"],"77000000-0000-0000-9BA8-000000000000","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:397 [XCUITestDriver@cd69 (2ab85181)] Executing command 'setValue'
+2022-12-22 11:01:51:397 [XCUITestDriver@cd69 (2ab85181)] Matched '/element/77000000-0000-0000-9BA8-000000000000/value' to command name 'setValue'
+2022-12-22 11:01:51:397 [XCUITestDriver@cd69 (2ab85181)] Added 'text' property "Kodomo10" to 'setValue' request body
+2022-12-22 11:01:51:397 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element/77000000-0000-0000-9BA8-000000000000/value] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/77000000-0000-0000-9BA8-000000000000/value] with body: {"value":["K","o","d","o","m","o","1","0"],"text":"Kodomo10"}
+2022-12-22 11:01:51:637 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:637 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.setValue() result: null
+2022-12-22 11:01:51:638 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/77000000-0000-0000-9BA8-000000000000/value 200 241 ms - 14
+2022-12-22 11:01:51:638 [HTTP] 
+2022-12-22 11:01:51:653 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:51:653 [HTTP] {}
+2022-12-22 11:01:51:653 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:653 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:51:653 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:51:654 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 1 ms - 22
+2022-12-22 11:01:51:654 [HTTP] 
+2022-12-22 11:01:51:657 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:51:657 [HTTP] {"using":"xpath","value":"//*[@name='submit-login']"}
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='submit-login']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:51:658 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='submit-login']"}
+2022-12-22 11:01:51:870 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"74000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:870 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-9BA8-000000000000","ELEMENT":"74000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:51:870 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 213 ms - 137
+2022-12-22 11:01:51:870 [HTTP] 
+2022-12-22 11:01:51:876 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/displayed
+2022-12-22 11:01:51:876 [HTTP] {}
+2022-12-22 11:01:51:876 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:51:876 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:51:876 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/displayed' to command name 'elementDisplayed'
+2022-12-22 11:01:51:876 [XCUITestDriver@cd69 (2ab85181)] Proxying [GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/displayed] to [GET http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/74000000-0000-0000-9BA8-000000000000/displayed] with no body
+2022-12-22 11:01:51:914 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":true,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:51:914 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:51:915 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/displayed 200 39 ms - 65
+2022-12-22 11:01:51:915 [HTTP] 
+2022-12-22 11:01:51:919 [HTTP] --> GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context
+2022-12-22 11:01:51:919 [HTTP] {}
+2022-12-22 11:01:51:919 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.getCurrentContext() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:920 [XCUITestDriver@cd69 (2ab85181)] Executing command 'getCurrentContext'
+2022-12-22 11:01:51:920 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-12-22 11:01:51:920 [HTTP] <-- GET /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/context 200 0 ms - 22
+2022-12-22 11:01:51:920 [HTTP] 
+2022-12-22 11:01:51:923 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element
+2022-12-22 11:01:51:923 [HTTP] {"using":"xpath","value":"//*[@name='submit-login']"}
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@name='submit-login']","2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Executing command 'findElement'
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Waiting up to 0 ms for condition
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Matched '/element' to command name 'findElement'
+2022-12-22 11:01:51:923 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element] with body: {"using":"xpath","value":"//*[@name='submit-login']"}
+2022-12-22 11:01:52:129 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":{"ELEMENT":"74000000-0000-0000-9BA8-000000000000","element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-9BA8-000000000000"},"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:52:129 [XCUITestDriver@cd69 (2ab85181)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"74000000-0000-0000-9BA8-000000000000","ELEMENT":"74000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:52:129 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element 200 206 ms - 137
+2022-12-22 11:01:52:129 [HTTP] 
+2022-12-22 11:01:52:135 [HTTP] --> POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/click
+2022-12-22 11:01:52:135 [HTTP] {"id":"74000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:52:135 [XCUITestDriver@cd69 (2ab85181)] Driver proxy active, passing request on via HTTP proxy
+2022-12-22 11:01:52:135 [XCUITestDriver@cd69 (2ab85181)] Executing command 'proxyReqRes'
+2022-12-22 11:01:52:135 [XCUITestDriver@cd69 (2ab85181)] Matched '/wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/click' to command name 'click'
+2022-12-22 11:01:52:135 [XCUITestDriver@cd69 (2ab85181)] Proxying [POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/click] to [POST http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9/element/74000000-0000-0000-9BA8-000000000000/click] with body: {"id":"74000000-0000-0000-9BA8-000000000000"}
+2022-12-22 11:01:52:280 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":"D3025B1A-CB00-4289-9157-B984B02D2ED9"}
+2022-12-22 11:01:52:280 [XCUITestDriver@cd69 (2ab85181)] Replacing sessionId D3025B1A-CB00-4289-9157-B984B02D2ED9 with 2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:52:281 [HTTP] <-- POST /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86/element/74000000-0000-0000-9BA8-000000000000/click 200 146 ms - 65
+2022-12-22 11:01:52:281 [HTTP] 
+2022-12-22 11:01:54:413 [HTTP] --> DELETE /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86
+2022-12-22 11:01:54:413 [HTTP] {}
+2022-12-22 11:01:54:414 [XCUITestDriver@cd69 (2ab85181)] Calling AppiumDriver.deleteSession() with args: ["2ab85181-9b68-439d-913b-c95820b47f86"]
+2022-12-22 11:01:54:414 [AppiumDriver@3ba0] Event 'quitSessionRequested' logged at 1671706914414 (18:01:54 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:54:415 [AppiumDriver@3ba0] Removing session 2ab85181-9b68-439d-913b-c95820b47f86 from our master session list
+2022-12-22 11:01:54:416 [XCUITestDriver@cd69 (2ab85181)] Matched '/session/2ab85181-9b68-439d-913b-c95820b47f86' to command name 'deleteSession'
+2022-12-22 11:01:54:416 [XCUITestDriver@cd69 (2ab85181)] Proxying [DELETE /session/2ab85181-9b68-439d-913b-c95820b47f86] to [DELETE http://127.0.0.1:8100/session/D3025B1A-CB00-4289-9157-B984B02D2ED9] with no body
+2022-12-22 11:01:55:461 [XCUITestDriver@cd69 (2ab85181)] Got response with status 200: {"value":null,"sessionId":null}
+2022-12-22 11:01:55:461 [DevCon Factory] Releasing connections for 20A641E8-C529-4DBD-8BB0-2D31DD93CF62 device on any port number
+2022-12-22 11:01:55:461 [DevCon Factory] Found cached connections to release: ["20A641E8-C529-4DBD-8BB0-2D31DD93CF62:8100"]
+2022-12-22 11:01:55:461 [DevCon Factory] Cached connections count: 0
+2022-12-22 11:01:55:461 [XCUITestDriver@cd69 (2ab85181)] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2022-12-22 11:01:55:462 [IOSSimulatorLog] Stopping iOS log capture
+2022-12-22 11:01:55:483 [AppiumDriver@3ba0] Event 'quitSessionFinished' logged at 1671706915483 (18:01:55 GMT+0700 (Western Indonesia Time))
+2022-12-22 11:01:55:483 [AppiumDriver@3ba0] Received response: null
+2022-12-22 11:01:55:483 [AppiumDriver@3ba0] But deleting session, so not returning
+2022-12-22 11:01:55:483 [AppiumDriver@3ba0] Responding to client with driver.deleteSession() result: null
+2022-12-22 11:01:55:484 [HTTP] <-- DELETE /wd/hub/session/2ab85181-9b68-439d-913b-c95820b47f86 200 1072 ms - 14
+2022-12-22 11:01:55:484 [HTTP] 
+2022-12-22 11:01:55:525 [Appium] Received SIGTERM - shutting down
+2022-12-22 11:01:55:525 [AppiumDriver@3ba0] There are no active sessions for cleanup
+2022-12-22 11:01:55:530 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:917:11)
+    at Socket._write (node:net:929:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/lib/logsink.js:210:5)
+    at EventEmitter.emit (node:events:513:28)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/npmlog/lib/log.js:251:8)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/npmlog/lib/log.js:381:23)
+    at Object.info (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:106:11)
+    at process.onSignal (/usr/local/lib/node_modules/appium/lib/main.js:361:14)
+    at Object.onceWrapper (node:events:628:26)
+    at process.emit (node:events:525:35)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+2022-12-22 11:01:55:531 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:917:11)
+    at Socket._write (node:net:929:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:513:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-geckodriver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-mac2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:149:25)
+2022-12-22 11:01:55:531 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:917:11)
+    at Socket._write (node:net:929:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:513:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-geckodriver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-mac2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:149:25)
+2022-12-22 11:01:55:532 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:917:11)
+    at Socket._write (node:net:929:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:513:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-geckodriver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-mac2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:149:25)
+2022-12-22 11:01:55:533 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:917:11)
+    at Socket._write (node:net:929:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:513:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/gk2210m1s/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-geckodriver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-mac2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/gk2210m1s/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:149:25)

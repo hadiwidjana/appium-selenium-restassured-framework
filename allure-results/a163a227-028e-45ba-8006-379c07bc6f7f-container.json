@@ -1,0 +1,1 @@
+{"uuid":"a163a227-028e-45ba-8006-379c07bc6f7f","name":"frmwrk.fe.web.tests.LoginBuyer","children":["84d91732-d537-42c4-862d-c76e47778cdb"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671704212341,"stop":1671704212342}],"afters":[],"links":[],"start":1671704211786,"stop":1671704221928}

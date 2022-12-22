@@ -6,7 +6,7 @@
     <parameter name="environment"  value="digital"/>
     <test name="Integration BE End to End Test">
         <classes>
-            <class name="Gokomodo.BE.Integration.Rest.tests.IntegrationE2ETest"/>
+            <class name="frmwrk.be.restapi.tests.IntegrationE2ETest"/>
         </classes>
     </test> <!-- Test -->
 

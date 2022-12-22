@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="End to End Mobile QA Gokomodo" thread-count="1" parallel="tests"
+<suite name="End to End Mobile QA frmwrk" thread-count="1" parallel="tests"
        data-provider-thread-count="1" group-by-instances="true">
 
     <test name="Android Web">
         <parameter name="platformName" value="Android_web"/>
         <classes>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Admin.tests.MobileWebLoginAdmin"/>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Buyer.tests.MobileWebLoginBuyer"/>
-            <class name="Gokomodo.FE.MobileWeb.LoginManager.Seller.tests.MobileWebLoginSeller"/>
+            <class name="frmwrk.fe.mobileweb.LoginManager.Admin.tests.MobileWebLoginAdmin"/>
+            <class name="frmwrk.fe.mobileweb.LoginManager.Buyer.tests.MobileWebLoginBuyer"/>
+            <class name="frmwrk.fe.mobileweb.LoginManager.Seller.tests.MobileWebLoginSeller"/>
         </classes>
     </test>
 
     <test name="Android APP">
         <parameter name="platformName" value="Android_app"/>
         <classes>
-            <class name="Gokomodo.FE.Mobile.LoginManager.Buyer.tests.MobileLoginBuyer"/>
-            <class name="Gokomodo.FE.Mobile.LoginManager.Seller.tests.MobileLoginSeller"/>
+            <class name="frmwrk.fe.mobile.LoginManager.Buyer.tests.MobileLoginBuyer"/>
+            <class name="frmwrk.fe.mobile.LoginManager.Seller.tests.MobileLoginSeller"/>
         </classes>
     </test>
 
